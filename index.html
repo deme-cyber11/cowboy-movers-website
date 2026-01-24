@@ -48,24 +48,24 @@
         ======================================== */
 
         :root {
-            /* Primary palette - Dark & Premium */
-            --color-primary: #0f0f0f;      /* Near black */
+            /* Primary palette - Dark Cream/Western */
+            --color-primary: #1a1612;      /* Dark warm brown */
             --color-secondary: #d4a84b;    /* Rich gold */
             --color-accent: #b8860b;       /* Dark goldenrod */
             --color-rust: #cd853f;         /* Peru/copper */
 
-            /* Backgrounds */
-            --color-background: #fafafa;   /* Clean off-white */
-            --color-surface: #ffffff;      /* Pure white */
-            --color-surface-alt: #f5f5f5;  /* Light gray */
+            /* Backgrounds - Warm tones */
+            --color-background: #f5f0e8;   /* Warm cream */
+            --color-surface: #faf8f5;      /* Light cream */
+            --color-surface-alt: #ebe5db;  /* Darker cream */
 
             /* Text colors */
-            --color-text: #1a1a1a;
-            --color-text-muted: #666666;
-            --color-text-light: #ffffff;
+            --color-text: #1a1612;
+            --color-text-muted: #5c534a;
+            --color-text-light: #f5f0e8;
 
             /* Functional */
-            --color-border: #e0e0e0;
+            --color-border: #d4cfc5;
             --color-success: #2e7d32;      /* Modern green */
 
             /* Typography - Modern Refined */
@@ -2201,7 +2201,7 @@
         window.addEventListener('scroll', () => {
             const header = document.querySelector('header');
             if (window.scrollY > 50) {
-                header.style.background = 'rgba(26, 26, 26, 0.98)';
+                header.style.background = 'rgba(26, 22, 18, 0.98)';
                 header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
             } else {
                 header.style.background = 'var(--color-primary)';
