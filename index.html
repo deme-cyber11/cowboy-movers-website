@@ -324,25 +324,25 @@
             align-items: center;
         }
 
-        /* Quote Box */
+        /* Quote Box - Dark Theme */
         .hero-quote-box {
-            background: var(--color-surface);
+            background: rgba(255, 255, 255, 0.05);
             padding: 2rem;
-            border: 1px solid var(--color-border);
-            border-radius: 8px;
-            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
         }
 
         .hero-quote-box h3 {
             font-size: 1.35rem;
-            color: var(--color-text);
+            color: var(--color-text-light);
             margin-bottom: 0.5rem;
             text-align: center;
         }
 
         .hero-quote-box .subtitle {
             font-size: 0.9rem;
-            color: var(--color-text-muted);
+            color: rgba(255, 255, 255, 0.6);
             text-align: center;
             margin-bottom: 1.5rem;
         }
@@ -356,19 +356,33 @@
         .quote-form input,
         .quote-form select {
             padding: 0.875rem 1rem;
-            border: 1px solid var(--color-border);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 6px;
-            background: var(--color-background);
+            background: rgba(255, 255, 255, 0.08);
             font-family: var(--font-body);
             font-size: 1rem;
-            color: var(--color-text);
+            color: var(--color-text-light);
             width: 100%;
+        }
+
+        .quote-form input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .quote-form select {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .quote-form select option {
+            background: var(--color-primary);
+            color: var(--color-text-light);
         }
 
         .quote-form input:focus,
         .quote-form select:focus {
             outline: none;
             border-color: var(--color-secondary);
+            background: rgba(255, 255, 255, 0.12);
         }
 
         .quote-form .btn-primary {
@@ -385,13 +399,13 @@
             gap: 0.5rem;
             margin-top: 0.5rem;
             font-size: 0.85rem;
-            color: var(--color-text-muted);
+            color: rgba(255, 255, 255, 0.6);
         }
 
         .quote-form-footer .icon {
             width: 16px;
             height: 16px;
-            fill: var(--color-success);
+            fill: var(--color-secondary);
         }
 
         /* Mobile responsive hero */
@@ -403,8 +417,10 @@
             }
 
             .hero-quote-box {
-                max-width: 100%;
+                max-width: 500px;
+                width: 100%;
                 margin: 0 auto;
+                box-sizing: border-box;
             }
 
             .hero-text h1 {
@@ -431,7 +447,23 @@
             }
 
             .hero-quote-box {
-                padding: 1.5rem;
+                padding: 1.25rem;
+                max-width: 100%;
+            }
+
+            .hero-quote-box h3 {
+                font-size: 1.2rem;
+            }
+
+            .quote-form input,
+            .quote-form select {
+                padding: 0.75rem 0.875rem;
+                font-size: 0.95rem;
+            }
+
+            .quote-form .btn-primary {
+                padding: 0.875rem;
+                font-size: 1rem;
             }
         }
 
