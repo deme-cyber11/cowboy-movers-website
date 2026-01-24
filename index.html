@@ -1,0 +1,2222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cowboy Movers & Junk Removal | Professional Moving Services</title>
+
+    <!-- Google Analytics 4 - Replace with Marco's ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <meta name="description" content="Professional apartment moving, home moving, and junk removal services in Austin, TX and surrounding areas. Licensed & insured movers you can trust. Free quotes - call today!">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.cowboymoversjunkremoval.com/">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Cowboy Movers & Junk Removal | Professional Moving Services">
+    <meta property="og:description" content="Professional apartment moving, home moving, and junk removal services. Licensed & insured movers you can trust.">
+    <meta property="og:url" content="https://www.cowboymoversjunkremoval.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Cowboy Movers & Junk Removal">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="author" content="Cowboy Movers & Junk Removal">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#1a1a1a">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+    <!-- Google Fonts - Western Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* ========================================
+           COWBOY MOVERS DESIGN SYSTEM
+           Western Minimalism
+        ======================================== */
+
+        :root {
+            /* Primary palette - Dark & Premium */
+            --color-primary: #0f0f0f;      /* Near black */
+            --color-secondary: #d4a84b;    /* Rich gold */
+            --color-accent: #b8860b;       /* Dark goldenrod */
+            --color-rust: #cd853f;         /* Peru/copper */
+
+            /* Backgrounds */
+            --color-background: #fafafa;   /* Clean off-white */
+            --color-surface: #ffffff;      /* Pure white */
+            --color-surface-alt: #f5f5f5;  /* Light gray */
+
+            /* Text colors */
+            --color-text: #1a1a1a;
+            --color-text-muted: #666666;
+            --color-text-light: #ffffff;
+
+            /* Functional */
+            --color-border: #e0e0e0;
+            --color-success: #2e7d32;      /* Modern green */
+
+            /* Typography - Modern Refined */
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'Source Sans 3', -apple-system, sans-serif;
+
+            /* Spacing */
+            --section-padding: 6rem 2rem;
+            --container-max: 1200px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px; /* Account for fixed header */
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--color-text);
+            background: var(--color-background);
+            -webkit-font-smoothing: antialiased;
+            -webkit-tap-highlight-color: transparent; /* Clean taps on mobile */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 600;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* ========================================
+           HEADER - Minimal & Fixed
+        ======================================== */
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--color-primary);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        nav {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 1.25rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            fill: var(--color-secondary);
+        }
+
+        /* Icon styling */
+        .icon {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+            flex-shrink: 0;
+        }
+
+        .icon-sm {
+            width: 18px;
+            height: 18px;
+        }
+
+        .icon-lg {
+            width: 32px;
+            height: 32px;
+        }
+
+        .icon-xl {
+            width: 48px;
+            height: 48px;
+        }
+
+        .logo-text {
+            font-family: var(--font-display);
+            font-size: clamp(0.9rem, 3vw, 1.35rem);
+            font-weight: 600;
+            color: var(--color-text-light);
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
+
+        .logo-text span {
+            color: var(--color-secondary);
+            font-style: italic;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+            font-weight: 500;
+            opacity: 0.85;
+            transition: opacity 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            opacity: 1;
+        }
+
+        .nav-cta {
+            background: var(--color-secondary);
+            color: var(--color-primary) !important;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            opacity: 1 !important;
+            border-radius: 6px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(212, 168, 75, 0.4);
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--color-text-light);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        /* ========================================
+           HERO - Full Impact, Minimal Design
+        ======================================== */
+
+        .hero {
+            margin-top: 72px;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Subtle gold accent glow */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60%;
+            height: 100%;
+            background: radial-gradient(ellipse at 80% 50%, rgba(212, 168, 75, 0.04) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .hero-text h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            color: var(--color-text-light);
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+            line-height: 1.1;
+        }
+
+        .hero-text h1 span {
+            color: var(--color-secondary);
+            font-style: italic;
+        }
+
+        .hero-text > p {
+            font-size: 1.15rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+            max-width: 520px;
+        }
+
+        .hero-rating {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding: 1rem 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            width: fit-content;
+        }
+
+        .hero-rating .stars {
+            color: #fbbf24;
+            font-size: 1.25rem;
+            letter-spacing: 0.05em;
+        }
+
+        .hero-rating span {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.95rem;
+        }
+
+        .hero-rating strong {
+            color: var(--color-secondary);
+        }
+
+        .hero-cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        /* Quote Box */
+        .hero-quote-box {
+            background: var(--color-surface);
+            padding: 2rem;
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+        }
+
+        .hero-quote-box h3 {
+            font-size: 1.35rem;
+            color: var(--color-text);
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .hero-quote-box .subtitle {
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .quote-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .quote-form input,
+        .quote-form select {
+            padding: 0.875rem 1rem;
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            background: var(--color-background);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            color: var(--color-text);
+            width: 100%;
+        }
+
+        .quote-form input:focus,
+        .quote-form select:focus {
+            outline: none;
+            border-color: var(--color-secondary);
+        }
+
+        .quote-form .btn-primary {
+            width: 100%;
+            justify-content: center;
+            padding: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .quote-form-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+        }
+
+        .quote-form-footer .icon {
+            width: 16px;
+            height: 16px;
+            fill: var(--color-success);
+        }
+
+        /* Mobile responsive hero */
+        @media (max-width: 992px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 2rem 1.5rem;
+            }
+
+            .hero-quote-box {
+                max-width: 100%;
+                margin: 0 auto;
+            }
+
+            .hero-text h1 {
+                font-size: clamp(2rem, 8vw, 3rem);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .hero-rating {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+                width: 100%;
+            }
+
+            .hero-cta-group {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .hero-cta-group .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hero-quote-box {
+                padding: 1.5rem;
+            }
+        }
+
+        /* Bottom border separating hero from trust bar */
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--color-secondary);
+        }
+
+        /* Bottom border on header for brand accent */
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--color-secondary);
+        }
+
+        .hero-content {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            width: 100%;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(201, 162, 39, 0.15);
+            border: 2px solid var(--color-secondary);
+            padding: 0.6rem 1.25rem;
+            margin-bottom: 2rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--color-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            color: var(--color-text-light);
+            margin-bottom: 1.5rem;
+            max-width: 700px;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+        }
+
+        .hero h1 span {
+            color: var(--color-secondary);
+            font-style: italic;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 550px;
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            font-family: var(--font-display);
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-primary {
+            background: var(--color-secondary);
+            color: var(--color-primary);
+        }
+
+        .btn-primary .icon {
+            fill: var(--color-primary);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(212, 168, 75, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--color-text-light);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--color-text-light);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .hero-phone {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: var(--color-text-light);
+            font-size: 1.1rem;
+            margin-left: 1rem;
+        }
+
+        .hero-phone span {
+            font-family: var(--font-display);
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
+
+        /* ========================================
+           TRUST BAR - Clean Grid
+        ======================================== */
+
+        .trust-bar {
+            background: var(--color-surface);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .trust-items {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .trust-item {
+            padding: 2rem;
+            text-align: center;
+            border-right: 1px solid var(--color-border);
+        }
+
+        .trust-item:last-child {
+            border-right: none;
+        }
+
+        .trust-icon {
+            margin-bottom: 0.75rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .trust-icon .icon {
+            width: 28px;
+            height: 28px;
+            fill: var(--color-secondary);
+        }
+
+        .trust-label {
+            font-family: var(--font-display);
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 0.25rem;
+        }
+
+        .trust-detail {
+            font-size: 0.875rem;
+            color: var(--color-text-muted);
+        }
+
+        /* ========================================
+           SERVICES - Card Grid
+        ======================================== */
+
+        .services {
+            padding: var(--section-padding);
+            background: var(--color-background);
+        }
+
+        .container {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--color-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .section-label::before,
+        .section-label::after {
+            content: '—';
+            color: var(--color-border);
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 4vw, 3rem);
+            color: var(--color-text);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: var(--color-text-muted);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: var(--color-surface);
+            padding: 2.5rem;
+            border: 2px solid var(--color-border);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--color-secondary), var(--color-accent));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+            border-color: var(--color-secondary);
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .service-icon {
+            margin-bottom: 1.5rem;
+        }
+
+        .service-icon .icon {
+            width: 48px;
+            height: 48px;
+            fill: var(--color-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        .service-card p {
+            color: var(--color-text-muted);
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .service-features {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-features li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0;
+            font-size: 0.95rem;
+            color: var(--color-text);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .service-features li:last-child {
+            border-bottom: none;
+        }
+
+        .service-features .check {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 18px;
+            height: 18px;
+        }
+
+        .service-features .check .icon {
+            width: 16px;
+            height: 16px;
+            fill: var(--color-success);
+        }
+
+        .service-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-secondary);
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: gap 0.2s ease;
+        }
+
+        .service-link:hover {
+            gap: 0.75rem;
+        }
+
+        /* ========================================
+           WHY CHOOSE US
+        ======================================== */
+
+        .why-us {
+            padding: var(--section-padding);
+            background: var(--color-primary);
+            color: var(--color-text-light);
+            position: relative;
+        }
+
+        /* Leather texture effect */
+        .why-us::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+            opacity: 0.04;
+            pointer-events: none;
+        }
+
+        .why-us .section-label {
+            color: var(--color-secondary);
+        }
+
+        .why-us .section-label::before,
+        .why-us .section-label::after {
+            color: rgba(255,255,255,0.2);
+        }
+
+        .why-us .section-title {
+            color: var(--color-text-light);
+        }
+
+        .why-us .section-subtitle {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+
+        .feature-item {
+            display: flex;
+            gap: 1.5rem;
+            padding: 2rem;
+            border: 1px solid rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+        }
+
+        .feature-number {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            font-weight: 400;
+            color: var(--color-secondary);
+            opacity: 0.7;
+            line-height: 1;
+            font-style: italic;
+        }
+
+        .feature-content h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--color-text-light);
+        }
+
+        .feature-content p {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.7;
+        }
+
+        /* ========================================
+           TESTIMONIALS
+        ======================================== */
+
+        .testimonials {
+            padding: var(--section-padding);
+            background: var(--color-surface-alt);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .testimonial-card {
+            background: var(--color-surface);
+            padding: 2rem;
+            border: 1px solid var(--color-border);
+            border-radius: 12px;
+        }
+
+        .testimonial-stars {
+            color: var(--color-secondary);
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0.1em;
+        }
+
+        .testimonial-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--color-text);
+            margin-bottom: 1.5rem;
+            font-family: var(--font-display);
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .testimonial-text::before {
+            content: '"';
+            font-size: 2rem;
+            color: var(--color-secondary);
+            opacity: 0.5;
+            line-height: 0;
+            vertical-align: -0.3em;
+            margin-right: 0.1em;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-avatar {
+            width: 48px;
+            height: 48px;
+            background: var(--color-surface-alt);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: var(--color-text-muted);
+        }
+
+        .author-info h4 {
+            font-size: 1rem;
+            color: var(--color-text);
+        }
+
+        .author-info span {
+            font-size: 0.875rem;
+            color: var(--color-text-muted);
+        }
+
+        /* ========================================
+           CTA SECTION
+        ======================================== */
+
+        .cta-section {
+            padding: 5rem 2rem;
+            background: var(--color-primary);
+            text-align: center;
+            position: relative;
+        }
+
+        /* Decorative top border */
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--color-secondary);
+        }
+
+        .cta-badge {
+            display: inline-block;
+            background: rgba(212, 168, 75, 0.15);
+            border: 1px solid var(--color-secondary);
+            color: var(--color-secondary);
+            padding: 0.5rem 1.25rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section h2 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            color: var(--color-text-light);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .cta-section > .container > p {
+            font-size: 1.15rem;
+            color: rgba(255, 255, 255, 0.75);
+            margin-bottom: 2rem;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+        }
+
+        .cta-note {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 0 !important;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-dark {
+            background: var(--color-secondary);
+            color: var(--color-primary);
+        }
+
+        .btn-dark .icon {
+            fill: var(--color-primary);
+        }
+
+        .btn-dark:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(212, 168, 75, 0.4);
+        }
+
+        .cta-section .btn-outline {
+            border-color: rgba(255, 255, 255, 0.3) !important;
+            color: var(--color-text-light) !important;
+        }
+
+        .cta-section .btn-outline:hover {
+            border-color: var(--color-text-light) !important;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .cta-section .btn-outline .icon {
+            fill: var(--color-text-light);
+        }
+
+        /* ========================================
+           ABOUT PREVIEW
+        ======================================== */
+
+        .about-preview {
+            padding: var(--section-padding);
+            background: var(--color-surface);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .about-image::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            width: 100%;
+            height: 100%;
+            border: 3px solid var(--color-secondary);
+            z-index: -1;
+        }
+
+        .about-image::before {
+            content: '★';
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            font-size: 2rem;
+            color: var(--color-secondary);
+            z-index: 2;
+        }
+
+        .about-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-content p {
+            color: var(--color-text-muted);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: var(--color-secondary);
+            margin-bottom: 0.25rem;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .stat-item p {
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+            margin: 0;
+        }
+
+        /* ========================================
+           FOOTER
+        ======================================== */
+
+        footer {
+            background: var(--color-primary);
+            color: var(--color-text-light);
+            padding: 4rem 2rem 2rem;
+            position: relative;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--color-secondary);
+        }
+
+        .footer-content {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-brand .logo-text {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-brand p {
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .footer-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .footer-contact-item a {
+            color: rgba(255, 255, 255, 0.8);
+            transition: color 0.2s ease;
+        }
+
+        .footer-contact-item a:hover {
+            color: var(--color-secondary);
+        }
+
+        .footer-contact-item .icon {
+            fill: var(--color-secondary);
+        }
+
+        .footer-section h4 {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            color: var(--color-text-light);
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.6);
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--color-secondary);
+        }
+
+        .footer-bottom {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* ========================================
+           MOBILE RESPONSIVE
+        ======================================== */
+
+        @media (max-width: 992px) {
+            nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--color-primary);
+                flex-direction: column;
+                padding: 2rem;
+                gap: 1.5rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links a {
+                padding: 0.75rem 0;
+                font-size: 1.1rem;
+            }
+
+            .menu-toggle {
+                display: block;
+                padding: 0.75rem;
+                min-width: 44px;
+                min-height: 44px;
+            }
+
+            .hero {
+                min-height: auto;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-phone {
+                display: none;
+            }
+
+            .trust-items {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .trust-item:nth-child(2) {
+                border-right: none;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .service-card {
+                padding: 2rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .about-image::after {
+                display: none;
+            }
+
+            .about-image img {
+                height: 300px;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+            }
+
+            .section-header {
+                margin-bottom: 2.5rem;
+            }
+
+            :root {
+                --section-padding: 4rem 1.5rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 0.875rem 1rem;
+            }
+
+            .logo-icon {
+                width: 28px;
+                height: 28px;
+            }
+
+            .hero {
+                min-height: auto;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .trust-items {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-item {
+                border-right: none;
+                border-bottom: 1px solid var(--color-border);
+                padding: 1.5rem 1rem;
+            }
+
+            .trust-item:last-child {
+                border-bottom: none;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .about-image img {
+                height: 250px;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .footer-brand {
+                text-align: center;
+            }
+
+            .footer-contact-item {
+                justify-content: center;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .cta-buttons .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .how-it-works-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .step-item {
+                padding: 1.5rem 1rem;
+            }
+
+            .step-item::after {
+                display: none;
+            }
+
+            .section-title {
+                font-size: 1.75rem;
+            }
+
+            .btn {
+                padding: 0.875rem 1.5rem;
+                font-size: 0.95rem;
+            }
+
+            :root {
+                --section-padding: 3rem 1rem;
+            }
+        }
+
+        /* ========================================
+           SCROLL ANIMATIONS
+        ======================================== */
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .fade-in-left {
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in-left.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .fade-in-right {
+            opacity: 0;
+            transform: translateX(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in-right.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ========================================
+           TESTIMONIAL HOVER STATES
+        ======================================== */
+
+        .testimonial-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 32px rgba(44, 36, 29, 0.12);
+        }
+
+        /* ========================================
+           HOW IT WORKS SECTION
+        ======================================== */
+
+        .how-it-works {
+            padding: var(--section-padding);
+            background: var(--color-surface);
+        }
+
+        .how-it-works-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .step-item {
+            text-align: center;
+            position: relative;
+            padding: 2rem;
+        }
+
+        .step-item::after {
+            content: '';
+            position: absolute;
+            top: 50px;
+            right: -1rem;
+            width: calc(2rem + 50%);
+            height: 2px;
+            background: var(--color-border);
+        }
+
+        .step-item:last-child::after {
+            display: none;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: var(--color-secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--color-primary);
+        }
+
+        .step-item h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--color-text);
+        }
+
+        .step-item p {
+            color: var(--color-text-muted);
+            line-height: 1.6;
+        }
+
+        /* ========================================
+           SERVICE AREAS SECTION
+        ======================================== */
+
+        .service-areas {
+            padding: 3rem 2rem;
+            background: var(--color-surface-alt);
+            border-top: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .areas-content {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .areas-content h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        .areas-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem 1.5rem;
+            color: var(--color-text-muted);
+            font-size: 0.95rem;
+        }
+
+        .areas-list span {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .areas-list span::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: var(--color-secondary);
+            border-radius: 50%;
+        }
+
+        /* ========================================
+           STICKY MOBILE CTA
+        ======================================== */
+
+        .mobile-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--color-primary);
+            padding: 1rem;
+            z-index: 999;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .mobile-cta a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            background: var(--color-secondary);
+            color: var(--color-primary);
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: var(--font-display);
+            font-weight: 600;
+            font-size: 1.1rem;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-cta {
+                display: block;
+            }
+
+            footer {
+                padding-bottom: 6rem;
+            }
+        }
+
+        /* ========================================
+           GOOGLE REVIEWS BADGE
+        ======================================== */
+
+        .google-reviews-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 0.75rem 1.25rem;
+            margin-top: 1.5rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .google-reviews-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .google-reviews-badge .stars {
+            color: #fbbf24;
+            font-size: 1.1rem;
+            letter-spacing: 0.05em;
+        }
+
+        .google-reviews-badge span {
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+        }
+
+        .google-reviews-badge strong {
+            color: var(--color-text);
+        }
+    </style>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MovingCompany",
+        "name": "Cowboy Movers & Junk Removal",
+        "description": "Professional apartment moving, home moving, and junk removal services. Licensed & insured movers you can trust.",
+        "url": "https://www.cowboymoversjunkremoval.com",
+        "telephone": "+1-208-640-0083",
+        "email": "marcorojo99@yahoo.com",
+        "areaServed": {
+            "@type": "City",
+            "name": "Austin",
+            "containedInPlace": {
+                "@type": "State",
+                "name": "Texas"
+            }
+        },
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "07:00",
+            "closes": "20:00"
+        },
+        "sameAs": [],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Moving Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Apartment Moving"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Home Moving"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Junk Removal"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- SVG Icon Sprite -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <!-- Cowboy Hat -->
+        <symbol id="icon-cowboy" viewBox="0 0 24 24">
+            <path d="M12 2C9.5 2 7.5 3.5 7 5.5L4 7C3.5 7.2 3 7.8 3 8.5V9C3 9.6 3.4 10 4 10H5L6 14H4C3.4 14 3 14.4 3 15V16C3 16.6 3.4 17 4 17H20C20.6 17 21 16.6 21 16V15C21 14.4 20.6 14 20 14H18L19 10H20C20.6 10 21 9.6 21 9V8.5C21 7.8 20.5 7.2 20 7L17 5.5C16.5 3.5 14.5 2 12 2ZM12 4C13.7 4 15.1 5.1 15.4 6.5L12 8L8.6 6.5C8.9 5.1 10.3 4 12 4ZM7 10H17L16 14H8L7 10Z"/>
+        </symbol>
+        <!-- Shield/Check (Licensed) -->
+        <symbol id="icon-shield-check" viewBox="0 0 24 24">
+            <path d="M12 1L3 5V11C3 16.5 6.8 21.7 12 23C17.2 21.7 21 16.5 21 11V5L12 1ZM10 17L6 13L7.4 11.6L10 14.2L16.6 7.6L18 9L10 17Z"/>
+        </symbol>
+        <!-- Clock -->
+        <symbol id="icon-clock" viewBox="0 0 24 24">
+            <path d="M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2ZM12 20C7.6 20 4 16.4 4 12S7.6 4 12 4 20 7.6 20 12 16.4 20 12 20ZM12.5 7H11V13L16.2 16.2L17 14.9L12.5 12.2V7Z"/>
+        </symbol>
+        <!-- Strong/Muscle -->
+        <symbol id="icon-muscle" viewBox="0 0 24 24">
+            <path d="M3 18.5V13H5V18.5C5 19.3 5.7 20 6.5 20C7.3 20 8 19.3 8 18.5V14H10V18.5C10 20.4 8.4 22 6.5 22C4.6 22 3 20.4 3 18.5ZM21 13V18.5C21 20.4 19.4 22 17.5 22C15.6 22 14 20.4 14 18.5V14H16V18.5C16 19.3 16.7 20 17.5 20C18.3 20 19 19.3 19 18.5V13H21ZM12 8C14.2 8 16 6.2 16 4H18C18 7.3 15.3 10 12 10C8.7 10 6 7.3 6 4H8C8 6.2 9.8 8 12 8Z"/>
+        </symbol>
+        <!-- Clipboard/Document -->
+        <symbol id="icon-clipboard" viewBox="0 0 24 24">
+            <path d="M19 3H14.8C14.4 1.8 13.3 1 12 1C10.7 1 9.6 1.8 9.2 3H5C3.9 3 3 3.9 3 5V21C3 22.1 3.9 23 5 23H19C20.1 23 21 22.1 21 21V5C21 3.9 20.1 3 19 3ZM12 3C12.6 3 13 3.4 13 4C13 4.6 12.6 5 12 5C11.4 5 11 4.6 11 4C11 3.4 11.4 3 12 3ZM19 21H5V5H7V7H17V5H19V21Z"/>
+        </symbol>
+        <!-- Building/Apartment -->
+        <symbol id="icon-building" viewBox="0 0 24 24">
+            <path d="M17 11V3H7V7H3V21H11V17H13V21H21V11H17ZM7 19H5V17H7V19ZM7 15H5V13H7V15ZM7 11H5V9H7V11ZM11 15H9V13H11V15ZM11 11H9V9H11V11ZM11 7H9V5H11V7ZM15 15H13V13H15V15ZM15 11H13V9H15V11ZM15 7H13V5H15V7ZM19 19H17V17H19V19ZM19 15H17V13H19V15Z"/>
+        </symbol>
+        <!-- Home -->
+        <symbol id="icon-home" viewBox="0 0 24 24">
+            <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z"/>
+        </symbol>
+        <!-- Trash/Junk -->
+        <symbol id="icon-trash" viewBox="0 0 24 24">
+            <path d="M6 19C6 20.1 6.9 21 8 21H16C17.1 21 18 20.1 18 19V7H6V19ZM8 9H16V19H8V9ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z"/>
+        </symbol>
+        <!-- Check -->
+        <symbol id="icon-check" viewBox="0 0 24 24">
+            <path d="M9 16.2L4.8 12L3.4 13.4L9 19L21 7L19.6 5.6L9 16.2Z"/>
+        </symbol>
+        <!-- Phone -->
+        <symbol id="icon-phone" viewBox="0 0 24 24">
+            <path d="M6.6 10.8C8 13.6 10.4 15.9 13.2 17.4L15.4 15.2C15.7 14.9 16.1 14.8 16.4 14.9C17.5 15.3 18.7 15.5 20 15.5C20.6 15.5 21 15.9 21 16.5V20C21 20.6 20.6 21 20 21C10.6 21 3 13.4 3 4C3 3.4 3.4 3 4 3H7.5C8.1 3 8.5 3.4 8.5 4C8.5 5.2 8.7 6.4 9.1 7.6C9.2 7.9 9.1 8.3 8.8 8.6L6.6 10.8Z"/>
+        </symbol>
+        <!-- Email -->
+        <symbol id="icon-email" viewBox="0 0 24 24">
+            <path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+        </symbol>
+        <!-- Star -->
+        <symbol id="icon-star" viewBox="0 0 24 24">
+            <path d="M12 17.3L18.2 21L16.5 13.9L22 9.2L14.8 8.6L12 2L9.2 8.6L2 9.2L7.5 13.9L5.8 21L12 17.3Z"/>
+        </symbol>
+        <!-- Location/Map Pin -->
+        <symbol id="icon-location" viewBox="0 0 24 24">
+            <path d="M12 2C8.1 2 5 5.1 5 9C5 14.2 12 22 12 22S19 14.2 19 9C19 5.1 15.9 2 12 2ZM12 11.5C10.6 11.5 9.5 10.4 9.5 9C9.5 7.6 10.6 6.5 12 6.5C13.4 6.5 14.5 7.6 14.5 9C14.5 10.4 13.4 11.5 12 11.5Z"/>
+        </symbol>
+    </svg>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="/" class="logo">
+                <svg class="logo-icon"><use href="#icon-cowboy"/></svg>
+                <span class="logo-text">Cowboy <span>Movers</span> & Junk Removal</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:+12086400083" class="nav-cta">Get Free Quote</a></li>
+            </ul>
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Austin's Trusted <span>Moving & Junk Removal</span> Experts</h1>
+                <p>Professional movers who show up on time and treat your belongings like our own. Licensed, insured, and ready to make your move stress-free.</p>
+                <div class="hero-rating">
+                    <span class="stars">★★★★★</span>
+                    <span><strong>5.0 Rating</strong> from verified customers</span>
+                </div>
+                <div class="hero-cta-group">
+                    <a href="tel:+12086400083" class="btn btn-primary">
+                        <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                        Call (208) 640-0083
+                    </a>
+                    <a href="#services" class="btn btn-outline">
+                        View Our Services
+                    </a>
+                </div>
+            </div>
+            <div class="hero-quote-box">
+                <h3>Get Your Free Quote</h3>
+                <p class="subtitle">No obligation - response within 1 hour</p>
+                <form class="quote-form" action="mailto:marcorojo99@yahoo.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <select name="service" required>
+                        <option value="" disabled selected>Select Service</option>
+                        <option value="apartment">Apartment Moving</option>
+                        <option value="home">Home Moving</option>
+                        <option value="junk">Junk Removal</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary">
+                        Get Free Quote
+                    </button>
+                </form>
+                <div class="quote-form-footer">
+                    <svg class="icon"><use href="#icon-shield-check"/></svg>
+                    <span>Licensed & Insured</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar">
+        <div class="trust-items">
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-shield-check"/></svg></div>
+                <div class="trust-label">Licensed & Insured</div>
+                <div class="trust-detail">Full liability coverage</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-clock"/></svg></div>
+                <div class="trust-label">On-Time Guarantee</div>
+                <div class="trust-detail">We respect your schedule</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-muscle"/></svg></div>
+                <div class="trust-label">Experienced Crew</div>
+                <div class="trust-detail">Trained professionals</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-clipboard"/></svg></div>
+                <div class="trust-label">Free Estimates</div>
+                <div class="trust-detail">No hidden fees</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">How It Works</div>
+                <h2 class="section-title">Three Simple Steps</h2>
+                <p class="section-subtitle">Getting started is easy. We handle the heavy lifting so you don't have to.</p>
+            </div>
+            <div class="how-it-works-grid">
+                <div class="step-item fade-in">
+                    <div class="step-number">1</div>
+                    <h3>Call or Text</h3>
+                    <p>Reach out for a free quote. Tell us about your move and we'll give you an honest price upfront.</p>
+                </div>
+                <div class="step-item fade-in">
+                    <div class="step-number">2</div>
+                    <h3>Schedule Your Move</h3>
+                    <p>Pick a date that works for you. We offer flexible scheduling including same-day service when available.</p>
+                </div>
+                <div class="step-item fade-in">
+                    <div class="step-number">3</div>
+                    <h3>Sit Back & Relax</h3>
+                    <p>Our professional crew shows up on time and handles everything. You're in good hands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Our Services</div>
+                <h2 class="section-title">What We Do Best</h2>
+                <p class="section-subtitle">Whether you're moving across town or clearing out clutter, we've got you covered with reliable, professional service.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Apartment Moving -->
+                <div class="service-card">
+                    <svg class="icon icon-xl"><use href="#icon-building"/></svg>
+                    <h3>Apartment Moving</h3>
+                    <p>From studios to high-rise units, we navigate stairs, elevators, and tight spaces with ease. No floor is too high.</p>
+                    <ul class="service-features">
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> 1st to 20th floor moves</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Furniture disassembly</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Blanket wrapping included</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Building coordination</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get a Quote →</a>
+                </div>
+
+                <!-- Home Moving -->
+                <div class="service-card">
+                    <svg class="icon icon-xl"><use href="#icon-home"/></svg>
+                    <h3>Home Moving</h3>
+                    <p>Full-service residential moving for houses of all sizes. We pack, load, transport, and unload with care.</p>
+                    <ul class="service-features">
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Local & long-distance</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Packing services available</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Large furniture handling</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Same-day moves available</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get a Quote →</a>
+                </div>
+
+                <!-- Junk Removal -->
+                <div class="service-card">
+                    <svg class="icon icon-xl"><use href="#icon-trash"/></svg>
+                    <h3>Junk Removal</h3>
+                    <p>Fast, eco-friendly junk removal. We haul away furniture, appliances, yard waste, and more. You point, we load.</p>
+                    <ul class="service-features">
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Same-day service</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Responsible disposal</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Appliance removal</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Estate cleanouts</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get a Quote →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section class="service-areas">
+        <div class="areas-content">
+            <h3>Proudly Serving Austin & Surrounding Areas</h3>
+            <div class="areas-list">
+                <span>Downtown Austin</span>
+                <span>Round Rock</span>
+                <span>Cedar Park</span>
+                <span>Pflugerville</span>
+                <span>Georgetown</span>
+                <span>Leander</span>
+                <span>Kyle</span>
+                <span>Buda</span>
+                <span>Lakeway</span>
+                <span>Dripping Springs</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Why Cowboy Movers</div>
+                <h2 class="section-title">Moving Done Right</h2>
+                <p class="section-subtitle">We're not your average movers. Here's what sets us apart.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-number">01</div>
+                    <div class="feature-content">
+                        <h3>Transparent Pricing</h3>
+                        <p>No surprise fees or hidden charges. We provide detailed quotes upfront so you know exactly what to expect. The price we quote is the price you pay.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">02</div>
+                    <div class="feature-content">
+                        <h3>Careful Handling</h3>
+                        <p>Your belongings are treated like our own. Every item is blanket-wrapped, secured, and transported with the utmost care.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">03</div>
+                    <div class="feature-content">
+                        <h3>Punctual & Professional</h3>
+                        <p>We show up on time, every time. Our crew arrives ready to work, in uniform, and with all the equipment needed for an efficient move.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">04</div>
+                    <div class="feature-content">
+                        <h3>Fully Insured</h3>
+                        <p>Complete peace of mind knowing your move is protected. Full liability coverage means you're covered if anything unexpected happens.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1600518464441-9154a4dea21b?auto=format&fit=crop&w=800&q=80" alt="Professional movers at work" loading="lazy">
+                </div>
+                <div class="about-content">
+                    <div class="section-label">About Us</div>
+                    <h2>Galloping Into Action <span style="font-style: italic; color: var(--color-secondary);">Since Day One</span></h2>
+                    <p>Cowboy Movers was founded with a simple mission: provide honest, reliable moving services that take the stress out of relocating. We treat every move like it's our own.</p>
+                    <p>Our experienced team handles everything from small apartment moves to full house relocations and junk removal. We're licensed, insured, and committed to exceeding your expectations.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>500+</h3>
+                            <p>Successful Moves</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Satisfaction Goal</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5★</h3>
+                            <p>Google Rating</p>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com/search?q=Cowboy+Movers+Austin+TX+reviews" target="_blank" rel="noopener" class="google-reviews-badge">
+                        <span class="stars">★★★★★</span>
+                        <span><strong>5.0</strong> on Google Reviews</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Testimonials</div>
+                <h2 class="section-title">What Customers Say</h2>
+                <p class="section-subtitle">Don't just take our word for it. Here's what our customers have to say.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Best moving experience I've ever had. The team was professional, fast, and nothing was damaged. Will definitely use again!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4>John D.</h4>
+                            <span>Apartment Move</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"They showed up on time and worked efficiently. My whole 3-bedroom house was moved in under 4 hours. Incredible!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4>Sarah M.</h4>
+                            <span>Home Move</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Called for junk removal and they came the same day. Cleared out my garage in no time. Fair price and great service."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div class="author-info">
+                            <h4>Robert K.</h4>
+                            <span>Junk Removal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-badge">Free Estimates • Same-Day Available</div>
+            <h2>Let's Get You Moving</h2>
+            <p>No hidden fees. No surprises. Just honest, reliable service from a team that treats your belongings like our own.</p>
+            <div class="cta-buttons">
+                <a href="tel:+12086400083" class="btn btn-dark">
+                    <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                    Call (208) 640-0083
+                </a>
+                <a href="mailto:marcorojo99@yahoo.com" class="btn btn-outline" style="border-color: rgba(26,26,26,0.3); color: var(--color-primary);">
+                    <svg class="icon icon-sm"><use href="#icon-email"/></svg>
+                    Email Us
+                </a>
+            </div>
+            <p class="cta-note">Most quotes provided within 1 hour</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo-text">Cowboy <span>Movers</span> & Junk Removal</div>
+                <p>Professional moving and junk removal services. Licensed, insured, and ready to help with your next move.</p>
+                <div class="footer-contact-item">
+                    <svg class="icon icon-sm"><use href="#icon-location"/></svg>
+                    <span>Austin, TX & Surrounding Areas</span>
+                </div>
+                <div class="footer-contact-item">
+                    <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                    <a href="tel:+12086400083">(208) 640-0083</a>
+                </div>
+                <div class="footer-contact-item">
+                    <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                    <a href="tel:+12088194694">(208) 819-4694</a>
+                </div>
+                <div class="footer-contact-item">
+                    <svg class="icon icon-sm"><use href="#icon-email"/></svg>
+                    <a href="mailto:marcorojo99@yahoo.com">marcorojo99@yahoo.com</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#services">Apartment Moving</a></li>
+                    <li><a href="#services">Home Moving</a></li>
+                    <li><a href="#services">Junk Removal</a></li>
+                    <li><a href="#contact">Free Quotes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <ul class="footer-links">
+                    <li>Mon - Fri: 7am - 8pm</li>
+                    <li>Saturday: 8am - 6pm</li>
+                    <li>Sunday: 9am - 5pm</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Cowboy Movers & Junk Removal. All rights reserved.</p>
+            <p>Licensed & Insured</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA -->
+    <div class="mobile-cta">
+        <a href="tel:+12086400083">
+            <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+            Call Now - Free Quote
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.background = 'rgba(26, 26, 26, 0.98)';
+                header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.background = 'var(--color-primary)';
+                header.style.boxShadow = 'none';
+            }
+        });
+
+        // Scroll animations with Intersection Observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add animation classes to sections
+        document.querySelectorAll('.service-card').forEach((card, i) => {
+            card.classList.add('fade-in');
+            card.style.transitionDelay = `${i * 0.1}s`;
+            observer.observe(card);
+        });
+
+        document.querySelectorAll('.feature-item').forEach((item, i) => {
+            item.classList.add('fade-in');
+            item.style.transitionDelay = `${i * 0.1}s`;
+            observer.observe(item);
+        });
+
+        document.querySelectorAll('.testimonial-card').forEach((card, i) => {
+            card.classList.add('fade-in');
+            card.style.transitionDelay = `${i * 0.1}s`;
+            observer.observe(card);
+        });
+
+        document.querySelectorAll('.trust-item').forEach((item, i) => {
+            item.classList.add('fade-in');
+            item.style.transitionDelay = `${i * 0.05}s`;
+            observer.observe(item);
+        });
+    </script>
+</body>
+</html>
