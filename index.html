@@ -264,9 +264,22 @@
             padding: 3rem 2rem;
             width: 100%;
             display: grid;
-            grid-template-columns: 1fr 400px;
-            gap: 4rem;
+            grid-template-columns: 1fr minmax(320px, 400px);
+            gap: 3rem;
             align-items: center;
+        }
+
+        @media (max-width: 1024px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+
+            .hero-quote-box {
+                max-width: 450px;
+                width: 100%;
+                margin: 0 auto;
+            }
         }
 
         .hero-text h1 {
@@ -411,16 +424,7 @@
         /* Mobile responsive hero */
         @media (max-width: 992px) {
             .hero-content {
-                grid-template-columns: 1fr;
-                gap: 2rem;
                 padding: 2rem 1.5rem;
-            }
-
-            .hero-quote-box {
-                max-width: 500px;
-                width: 100%;
-                margin: 0 auto;
-                box-sizing: border-box;
             }
 
             .hero-text h1 {
