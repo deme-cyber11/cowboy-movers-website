@@ -26,12 +26,12 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Cowboy Services">
-    <meta property="og:image" content="https://deme-cyber11.github.io/cowboy-movers-website/hero-bg.png">
+    <meta property="og:image" content="https://deme-cyber11.github.io/cowboy-movers-website/hero-bg.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Cowboy Services - Moving, Demolition & Handyman in Austin TX">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://deme-cyber11.github.io/cowboy-movers-website/hero-bg.png">
+    <meta name="twitter:image" content="https://deme-cyber11.github.io/cowboy-movers-website/hero-bg.jpg">
     <meta name="twitter:image:alt" content="Cowboy Services - Moving, Demolition & Handyman in Austin TX">
 
     <!-- Additional SEO Meta Tags -->
@@ -251,7 +251,7 @@
             padding: 6rem 2rem;
             display: flex;
             align-items: center;
-            background: url('hero-bg.png') center center / cover no-repeat;
+            background: url('hero-bg.jpg') center center / cover no-repeat;
             position: relative;
         }
 
@@ -1507,6 +1507,64 @@
         }
     }
     </script>
+
+    <!-- FAQ Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How much does moving cost in Austin, TX?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Moving costs in Austin vary based on the size of your move, distance, and services needed. We offer free quotes within 1 hour. Call (208) 640-0083 for an accurate estimate tailored to your specific needs."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you offer same-day or last-minute moving services?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! Cowboy Services offers same-day and last-minute moving services in Austin and surrounding areas. We understand that plans change, and we're here to help when you need us most."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What areas do you serve in Texas?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We serve Austin and the greater Austin metro area, including Round Rock, Cedar Park, Pflugerville, Georgetown, and surrounding communities within a 50-mile radius."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are you licensed and insured?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Cowboy Services is fully licensed and insured. We carry comprehensive liability insurance to protect your belongings during every move, demolition, or handyman project."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What services does Cowboy Services offer?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer apartment and home moving, interior and exterior demolition, junk removal, construction site cleanup, and professional handyman services. Whether you're relocating or renovating, we've got you covered."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How quickly can I get a free quote?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide free quotes within 1 hour of your request. Simply call (208) 640-0083 or fill out our contact form, and we'll get back to you promptly with a detailed estimate."
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- SVG Icon Sprite -->
@@ -1580,7 +1638,7 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="reviews.html">Reviews</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="tel:+12086400083" class="nav-cta">Get Free Quote</a></li>
+                <li><a href="tel:+12086400083" class="nav-cta">Call Now</a></li>
             </ul>
             <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
         </nav>
@@ -1599,10 +1657,10 @@
                 <div class="hero-cta-group">
                     <a href="tel:+12086400083" class="btn btn-primary">
                         <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
-                        Call (208) 640-0083
+                        Call Now - (208) 640-0083
                     </a>
-                    <a href="#services" class="btn btn-outline">
-                        View Our Services
+                    <a href="contact.html" class="btn btn-outline">
+                        Book Your Move Today
                     </a>
                 </div>
             </div>
@@ -1618,14 +1676,14 @@
                 <div class="trust-detail">Full liability coverage</div>
             </div>
             <div class="trust-item">
-                <div class="trust-icon"><svg class="icon"><use href="#icon-clock"/></svg></div>
-                <div class="trust-label">On-Time Guarantee</div>
-                <div class="trust-detail">We respect your schedule</div>
+                <div class="trust-icon"><svg class="icon"><use href="#icon-star"/></svg></div>
+                <div class="trust-label">5-Star Google Rating</div>
+                <div class="trust-detail">Verified customer reviews</div>
             </div>
             <div class="trust-item">
-                <div class="trust-icon"><svg class="icon"><use href="#icon-muscle"/></svg></div>
-                <div class="trust-label">Experienced Crew</div>
-                <div class="trust-detail">Trained professionals</div>
+                <div class="trust-icon"><svg class="icon"><use href="#icon-clock"/></svg></div>
+                <div class="trust-label">Serving Austin Since 2020</div>
+                <div class="trust-detail">5+ years of experience</div>
             </div>
             <div class="trust-item">
                 <div class="trust-icon"><svg class="icon"><use href="#icon-clipboard"/></svg></div>
@@ -1686,7 +1744,7 @@
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Furniture disassembly</li>
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Blanket wrapping included</li>
                         </ul>
-                        <a href="contact.html" class="service-link">Get a Quote →</a>
+                        <a href="contact.html" class="service-link">Book Now →</a>
                     </div>
 
                     <!-- Home Moving -->
@@ -1699,7 +1757,7 @@
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Packing services available</li>
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Same-day moves available</li>
                         </ul>
-                        <a href="contact.html" class="service-link">Get a Quote →</a>
+                        <a href="contact.html" class="service-link">Book Now →</a>
                     </div>
 
                     <!-- Junk Removal -->
@@ -1712,7 +1770,7 @@
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Responsible disposal</li>
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Estate cleanouts</li>
                         </ul>
-                        <a href="contact.html" class="service-link">Get a Quote →</a>
+                        <a href="contact.html" class="service-link">Book Now →</a>
                     </div>
 
                     <!-- Handyman Services -->
@@ -1725,7 +1783,7 @@
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Minor repairs</li>
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Odd jobs & hauling</li>
                         </ul>
-                        <a href="contact.html" class="service-link">Get a Quote →</a>
+                        <a href="contact.html" class="service-link">Book Now →</a>
                     </div>
                 </div>
             </div>
@@ -1744,7 +1802,7 @@
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Interior remodel demo</li>
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> All trash hauled off</li>
                         </ul>
-                        <a href="contact.html" class="service-link">Get a Quote →</a>
+                        <a href="contact.html" class="service-link">Book Now →</a>
                     </div>
 
                     <!-- Exterior Demolition -->
@@ -1757,7 +1815,7 @@
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Outdoor deck demo</li>
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> All trash hauled off</li>
                         </ul>
-                        <a href="contact.html" class="service-link">Get a Quote →</a>
+                        <a href="contact.html" class="service-link">Book Now →</a>
                     </div>
 
                     <!-- Construction Site Cleanups -->
@@ -1770,7 +1828,7 @@
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Exterior cleanup</li>
                             <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Ongoing or one-time service</li>
                         </ul>
-                        <a href="contact.html" class="service-link">Get a Quote →</a>
+                        <a href="contact.html" class="service-link">Book Now →</a>
                     </div>
                 </div>
             </div>
