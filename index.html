@@ -231,6 +231,26 @@
             box-shadow: 0 4px 16px rgba(212, 168, 75, 0.4);
         }
 
+        .header-phone {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-secondary);
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: 2rem;
+        }
+
+        .header-phone:hover {
+            color: var(--color-text);
+        }
+
+        .header-phone .icon {
+            fill: currentColor;
+        }
+
         .menu-toggle {
             display: none;
             background: none;
@@ -330,6 +350,30 @@
             color: #ffffff;
         }
 
+        .hero-testimonial {
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 3px solid var(--color-secondary);
+            border-radius: 0 8px 8px 0;
+            text-align: left;
+            max-width: 500px;
+        }
+
+        .hero-testimonial em {
+            display: block;
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-testimonial span {
+            color: var(--color-secondary);
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
         .hero-cta-group {
             display: flex;
             flex-wrap: wrap;
@@ -353,10 +397,15 @@
             .hero {
                 padding: 4rem 1.5rem;
                 min-height: 60vh;
+                background-image: url('hero-bg-800.jpg');
             }
 
             .hero-text h1 {
                 font-size: clamp(2rem, 7vw, 3rem);
+            }
+
+            .hero-testimonial {
+                max-width: 100%;
             }
         }
 
@@ -364,6 +413,7 @@
             .hero {
                 padding: 3rem 1.25rem;
                 min-height: auto;
+                background-image: url('hero-bg-400.jpg');
             }
 
             .hero-rating {
@@ -475,6 +525,19 @@
 
         .trust-detail {
             display: none;
+        }
+
+        .trust-item-link {
+            text-decoration: none;
+            transition: transform 0.2s ease;
+        }
+
+        .trust-item-link:hover {
+            transform: translateY(-2px);
+        }
+
+        .trust-item-link:hover .trust-label {
+            color: var(--color-secondary);
         }
 
         /* ========================================
@@ -1112,6 +1175,10 @@
         }
 
         @media (max-width: 600px) {
+            .header-phone {
+                display: none;
+            }
+
             nav {
                 padding: 0.875rem 1rem;
             }
@@ -1633,6 +1700,10 @@
                 <svg class="logo-icon"><use href="#icon-cowboy"/></svg>
                 <span class="logo-text">Cowboy <span>Services</span></span>
             </a>
+            <a href="tel:+12086400083" class="header-phone">
+                <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                (208) 640-0083
+            </a>
             <ul class="nav-links">
                 <li><a href="services.html">Services</a></li>
                 <li><a href="about.html">About</a></li>
@@ -1644,6 +1715,32 @@
         </nav>
     </header>
 
+    <!-- Trust Bar (Above Hero for Visibility) -->
+    <section class="trust-bar">
+        <div class="trust-items">
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-shield-check"/></svg></div>
+                <div class="trust-label">Licensed & Insured</div>
+                <div class="trust-detail">Full liability coverage</div>
+            </div>
+            <a href="https://www.google.com/search?q=Cowboy+Services+Austin+TX+reviews" target="_blank" rel="noopener" class="trust-item trust-item-link">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-star"/></svg></div>
+                <div class="trust-label">5-Star Google Rating</div>
+                <div class="trust-detail">Click to see reviews</div>
+            </a>
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-clock"/></svg></div>
+                <div class="trust-label">Serving Austin Since 2020</div>
+                <div class="trust-detail">5+ years of experience</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-check"/></svg></div>
+                <div class="trust-label">100% Satisfaction</div>
+                <div class="trust-detail">Guaranteed or money back</div>
+            </div>
+        </div>
+    </section>
+
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
@@ -1654,6 +1751,10 @@
                     <span class="stars">★★★★★</span>
                     <span><strong>5.0 Rating</strong> from verified customers</span>
                 </div>
+                <div class="hero-testimonial">
+                    <em>"Best moving experience I've ever had. Fast, professional, and careful with my furniture."</em>
+                    <span>— Sarah M., Austin</span>
+                </div>
                 <div class="hero-cta-group">
                     <a href="tel:+12086400083" class="btn btn-primary">
                         <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
@@ -1663,32 +1764,6 @@
                         Book Your Move Today
                     </a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Trust Bar -->
-    <section class="trust-bar">
-        <div class="trust-items">
-            <div class="trust-item">
-                <div class="trust-icon"><svg class="icon"><use href="#icon-shield-check"/></svg></div>
-                <div class="trust-label">Licensed & Insured</div>
-                <div class="trust-detail">Full liability coverage</div>
-            </div>
-            <div class="trust-item">
-                <div class="trust-icon"><svg class="icon"><use href="#icon-star"/></svg></div>
-                <div class="trust-label">5-Star Google Rating</div>
-                <div class="trust-detail">Verified customer reviews</div>
-            </div>
-            <div class="trust-item">
-                <div class="trust-icon"><svg class="icon"><use href="#icon-clock"/></svg></div>
-                <div class="trust-label">Serving Austin Since 2020</div>
-                <div class="trust-detail">5+ years of experience</div>
-            </div>
-            <div class="trust-item">
-                <div class="trust-icon"><svg class="icon"><use href="#icon-clipboard"/></svg></div>
-                <div class="trust-label">Free Estimates</div>
-                <div class="trust-detail">No hidden fees</div>
             </div>
         </div>
     </section>
