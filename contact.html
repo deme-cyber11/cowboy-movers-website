@@ -20,7 +20,12 @@
     <meta property="og:description" content="Get a free moving quote. Call (208) 640-0083 or fill out our contact form.">
     <meta property="og:url" content="https://www.cowboymoversjunkremoval.com/contact.html">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Cowboy Movers & Junk Removal">
+    <meta property="og:image" content="https://www.cowboymoversjunkremoval.com/hero-bg.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Contact Cowboy Movers & Junk Removal - Austin TX">
 
     <meta name="author" content="Cowboy Movers & Junk Removal">
     <meta name="robots" content="index, follow">
@@ -393,6 +398,35 @@
         window.addEventListener('scroll', () => { const header = document.querySelector('header'); header.style.boxShadow = window.scrollY > 50 ? '0 1px 10px rgba(0,0,0,0.08)' : 'none'; });
         const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); }); }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+
+    <!-- Schema.org ContactPage structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Cowboy Movers & Junk Removal",
+        "description": "Get a free moving quote from Cowboy Movers & Junk Removal in Austin, TX",
+        "url": "https://www.cowboymoversjunkremoval.com/contact.html",
+        "mainEntity": {
+            "@type": "LocalBusiness",
+            "name": "Cowboy Movers & Junk Removal",
+            "telephone": "(208) 640-0083",
+            "email": "cowboymoversjunkremoval@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "07:00",
+                "closes": "20:00"
+            }
+        }
+    }
     </script>
 </body>
 </html>

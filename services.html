@@ -20,7 +20,12 @@
     <meta property="og:description" content="Professional apartment moving, home moving, and junk removal services in Austin, TX.">
     <meta property="og:url" content="https://www.cowboymoversjunkremoval.com/services.html">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Cowboy Movers & Junk Removal">
+    <meta property="og:image" content="https://www.cowboymoversjunkremoval.com/hero-bg.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Cowboy Movers & Junk Removal - Moving Services in Austin TX">
 
     <meta name="author" content="Cowboy Movers & Junk Removal">
     <meta name="robots" content="index, follow">
@@ -418,6 +423,61 @@
         window.addEventListener('scroll', () => { const header = document.querySelector('header'); header.style.boxShadow = window.scrollY > 50 ? '0 1px 10px rgba(0,0,0,0.08)' : 'none'; });
         const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); }); }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+
+    <!-- Schema.org Service structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Moving Services",
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": "Cowboy Movers & Junk Removal",
+            "telephone": "(208) 640-0083",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "addressCountry": "US"
+            }
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Austin",
+            "sameAs": "https://en.wikipedia.org/wiki/Austin,_Texas"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Moving & Junk Removal Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Apartment Moving",
+                        "description": "Professional apartment moving services in Austin, TX"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Home Moving",
+                        "description": "Full-service residential moving for homes of all sizes"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Junk Removal",
+                        "description": "Fast, eco-friendly junk removal and disposal services"
+                    }
+                }
+            ]
+        }
+    }
     </script>
 </body>
 </html>

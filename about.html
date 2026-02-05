@@ -20,7 +20,12 @@
     <meta property="og:description" content="Austin's trusted moving company. Founded on integrity, reliability, and care.">
     <meta property="og:url" content="https://www.cowboymoversjunkremoval.com/about.html">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Cowboy Movers & Junk Removal">
+    <meta property="og:image" content="https://www.cowboymoversjunkremoval.com/hero-bg.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Cowboy Movers & Junk Removal - Austin's Trusted Moving Company">
 
     <meta name="author" content="Cowboy Movers & Junk Removal">
     <meta name="robots" content="index, follow">
@@ -433,6 +438,39 @@
         window.addEventListener('scroll', () => { const header = document.querySelector('header'); header.style.boxShadow = window.scrollY > 50 ? '0 1px 10px rgba(0,0,0,0.08)' : 'none'; });
         const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); }); }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+
+    <!-- Schema.org AboutPage Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About Cowboy Movers & Junk Removal",
+        "description": "Learn about Cowboy Movers & Junk Removal - Austin's trusted moving company founded on integrity, reliability, and care.",
+        "url": "https://www.cowboymoversjunkremoval.com/about.html",
+        "mainEntity": {
+            "@type": "MovingCompany",
+            "name": "Cowboy Movers & Junk Removal",
+            "description": "Professional apartment moving, home moving, and junk removal services in Austin, TX. Licensed & insured movers.",
+            "url": "https://www.cowboymoversjunkremoval.com",
+            "telephone": "+1-208-640-0083",
+            "email": "marcorojo99@yahoo.com",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "addressCountry": "US"
+            },
+            "areaServed": {
+                "@type": "City",
+                "name": "Austin",
+                "containedInPlace": {
+                    "@type": "State",
+                    "name": "Texas"
+                }
+            }
+        }
+    }
     </script>
 </body>
 </html>

@@ -20,7 +20,12 @@
     <meta property="og:description" content="5-star rated moving and junk removal in Austin, TX. See what our customers say.">
     <meta property="og:url" content="https://www.cowboymoversjunkremoval.com/reviews.html">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Cowboy Movers & Junk Removal">
+    <meta property="og:image" content="https://www.cowboymoversjunkremoval.com/hero-bg.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Customer Reviews - Cowboy Movers & Junk Removal Austin TX">
 
     <meta name="author" content="Cowboy Movers & Junk Removal">
     <meta name="robots" content="index, follow">
@@ -389,6 +394,43 @@
         window.addEventListener('scroll', () => { const header = document.querySelector('header'); header.style.boxShadow = window.scrollY > 50 ? '0 1px 10px rgba(0,0,0,0.08)' : 'none'; });
         const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); }); }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
         document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+
+    <!-- Schema.org Review aggregate structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Cowboy Movers & Junk Removal",
+        "telephone": "(208) 640-0083",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Austin",
+            "addressRegion": "TX",
+            "addressCountry": "US"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "50",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Verified Customer"
+                },
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "reviewBody": "Excellent moving service. Professional, fast, and careful with our belongings."
+            }
+        ]
+    }
     </script>
 </body>
 </html>

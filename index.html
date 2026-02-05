@@ -27,6 +27,10 @@
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Cowboy Movers & Junk Removal">
+    <meta property="og:image" content="https://www.cowboymoversjunkremoval.com/hero-bg.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Cowboy Movers & Junk Removal - Austin Moving Company">
 
     <!-- Additional SEO Meta Tags -->
     <meta name="author" content="Cowboy Movers & Junk Removal">
@@ -89,6 +93,7 @@
         html {
             scroll-behavior: smooth;
             scroll-padding-top: 80px; /* Account for fixed header */
+            overflow-x: hidden; /* Prevent horizontal scroll on mobile */
         }
 
         body {
@@ -99,6 +104,7 @@
             background: var(--color-background);
             -webkit-font-smoothing: antialiased;
             -webkit-tap-highlight-color: transparent; /* Clean taps on mobile */
+            overflow-x: hidden; /* Prevent horizontal scroll on mobile */
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -245,7 +251,7 @@
             padding: 6rem 2rem;
             display: flex;
             align-items: center;
-            background: url('hero-bg.png') center center / cover no-repeat;
+            background: url('hero-bg.jpg') center center / cover no-repeat;
             position: relative;
         }
 
@@ -347,6 +353,7 @@
             .hero {
                 padding: 4rem 1.5rem;
                 min-height: 60vh;
+                background-image: url('hero-bg-800.jpg');
             }
 
             .hero-text h1 {
@@ -358,6 +365,7 @@
             .hero {
                 padding: 3rem 1.25rem;
                 min-height: auto;
+                background-image: url('hero-bg-400.jpg');
             }
 
             .hero-rating {
@@ -1701,7 +1709,7 @@
         "description": "Professional apartment moving, home moving, and junk removal services in Austin, TX and surrounding areas. Licensed & insured movers providing reliable, stress-free relocations with transparent pricing and careful handling of your belongings.",
         "url": "https://www.cowboymoversjunkremoval.com",
         "logo": "https://www.cowboymoversjunkremoval.com/logo.png",
-        "image": "https://www.cowboymoversjunkremoval.com/hero-bg.png",
+        "image": "https://www.cowboymoversjunkremoval.com/hero-bg.jpg",
         "telephone": ["+1-208-640-0083", "+1-208-819-4694"],
         "email": "marcorojo99@yahoo.com",
         "foundingDate": "2020",
@@ -2149,7 +2157,7 @@
     <!-- Header -->
     <header>
         <nav>
-            <a href="/" class="logo">
+            <a href="index.html" class="logo">
                 <svg class="logo-icon"><use href="#icon-cowboy"/></svg>
                 <span class="logo-text">Cowboy <span>Movers</span> & Junk Removal</span>
             </a>
