@@ -1,0 +1,252 @@
+{
+  "business": {
+    "name": "Orlando Concrete Driveway Experts",
+    "shortName": "OCD Experts",
+    "tagline": "Licensed & Insured",
+    "foundedYear": "2010",
+    "warrantyYears": "10",
+    "priceRange": "$$"
+  },
+  "contact": {
+    "phone": "(407) 900-1517",
+    "phoneRaw": "4079001517",
+    "email": "contact@orlandoconcretedriveway.com",
+    "domain": "orlandoconcretedriveway.com",
+    "domainFull": "https://orlandoconcretedriveway.com"
+  },
+  "location": {
+    "primaryCity": "Orlando",
+    "region": "Central Florida",
+    "state": "Florida",
+    "stateCode": "FL",
+    "latitude": "28.5383",
+    "longitude": "-81.3792",
+    "streetAddress": "123 Main Street",
+    "postalCode": "32801",
+    "areaCode": "407",
+    "serviceRadius": "30 miles",
+    "geoRegion": "US-FL"
+  },
+  "hours": {
+    "weekdays": "Monday-Friday: 7:00 AM - 6:00 PM",
+    "saturday": "Saturday: 8:00 AM - 2:00 PM",
+    "sunday": "Sunday: Closed",
+    "schemaWeekday": {
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "07:00",
+      "closes": "18:00"
+    },
+    "schemaSaturday": {
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "14:00"
+    }
+  },
+  "service": {
+    "primary": "concrete driveway",
+    "primaryPlural": "concrete driveways",
+    "primaryCapitalized": "Concrete Driveway",
+    "primaryPluralCapitalized": "Concrete Driveways",
+    "secondary": "concrete",
+    "secondaryCapitalized": "Concrete",
+    "tertiary": "driveway",
+    "tertiaryPlural": "driveways",
+    "tertiaryCapitalized": "Driveway",
+    "tertiaryPluralCapitalized": "Driveways",
+    "industry": "home improvement",
+    "category": "Contractor"
+  },
+  "services": [
+    {
+      "id": "driveway-installation",
+      "name": "Driveway Installation",
+      "shortDesc": "New concrete driveway installation with expert craftsmanship",
+      "icon": "plus-circle"
+    },
+    {
+      "id": "driveway-replacement",
+      "name": "Driveway Replacement",
+      "shortDesc": "Remove old concrete and install a brand new driveway",
+      "icon": "refresh"
+    },
+    {
+      "id": "stamped-concrete",
+      "name": "Stamped Concrete",
+      "shortDesc": "Decorative patterns that mimic stone, brick, or tile",
+      "icon": "grid"
+    },
+    {
+      "id": "patios-walkways",
+      "name": "Patios & Walkways",
+      "shortDesc": "Beautiful outdoor living spaces and pathways",
+      "icon": "home"
+    },
+    {
+      "id": "pool-decks",
+      "name": "Pool Decks",
+      "shortDesc": "Slip-resistant, cool-touch pool surrounds",
+      "icon": "droplet"
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial Concrete",
+      "shortDesc": "Parking lots, loading docks, and commercial flatwork",
+      "icon": "building"
+    }
+  ],
+  "serviceAreas": [
+    {
+      "id": "downtown-orlando",
+      "name": "Downtown Orlando",
+      "shortName": "Downtown",
+      "description": "The heart of the city with historic homes and modern developments",
+      "neighborhoods": ["Thornton Park", "Lake Eola Heights", "Parramore", "South Eola"]
+    },
+    {
+      "id": "winter-park",
+      "name": "Winter Park",
+      "shortName": "Winter Park",
+      "description": "Upscale community known for brick streets and mature oak trees",
+      "neighborhoods": ["Park Avenue", "College Quarter", "Via Tuscany", "Winter Park Estates"]
+    },
+    {
+      "id": "maitland",
+      "name": "Maitland",
+      "shortName": "Maitland",
+      "description": "Family-friendly suburb with excellent schools",
+      "neighborhoods": ["Lake Lily", "Dommerich Estates", "Maitland Shores"]
+    },
+    {
+      "id": "lake-mary",
+      "name": "Lake Mary",
+      "shortName": "Lake Mary",
+      "description": "Growing community with new developments and established neighborhoods",
+      "neighborhoods": ["Heathrow", "Markham Woods", "Lake Mary Woods"]
+    },
+    {
+      "id": "altamonte-springs",
+      "name": "Altamonte Springs",
+      "shortName": "Altamonte",
+      "description": "Convenient central location with diverse housing options",
+      "neighborhoods": ["Spring Oaks", "Altamonte Heights", "Lake Orienta"]
+    },
+    {
+      "id": "oviedo",
+      "name": "Oviedo",
+      "shortName": "Oviedo",
+      "description": "Charming small-town feel with modern amenities",
+      "neighborhoods": ["Oviedo on the Park", "Alafaya Woods", "Live Oak Reserve"]
+    },
+    {
+      "id": "longwood",
+      "name": "Longwood",
+      "shortName": "Longwood",
+      "description": "Historic downtown area surrounded by established neighborhoods",
+      "neighborhoods": ["Longwood Historic District", "Sabal Point", "The Springs"]
+    },
+    {
+      "id": "sanford",
+      "name": "Sanford",
+      "shortName": "Sanford",
+      "description": "Historic waterfront city experiencing revitalization",
+      "neighborhoods": ["Historic Downtown", "Mayfair", "Sanford Landing"]
+    },
+    {
+      "id": "apopka",
+      "name": "Apopka",
+      "shortName": "Apopka",
+      "description": "Growing northwest Orlando suburb with new construction",
+      "neighborhoods": ["Rock Springs Ridge", "Wekiva", "Errol Estates"]
+    },
+    {
+      "id": "casselberry",
+      "name": "Casselberry",
+      "shortName": "Casselberry",
+      "description": "Centrally located with easy access to major highways",
+      "neighborhoods": ["Carriage Cove", "Triplet Lake", "Deer Run"]
+    },
+    {
+      "id": "baldwin-park",
+      "name": "Baldwin Park",
+      "shortName": "Baldwin Park",
+      "description": "Master-planned community with walkable streets and parks",
+      "neighborhoods": ["Village Center", "Lake Baldwin", "Baldwin Harbor"]
+    },
+    {
+      "id": "college-park",
+      "name": "College Park",
+      "shortName": "College Park",
+      "description": "Historic neighborhood with tree-lined streets near downtown",
+      "neighborhoods": ["College Park Main Street", "Princeton Estates", "Country Club"]
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "blog-cost",
+      "title": "How Much Does a Concrete Driveway Cost? {{YEAR}} Price Guide",
+      "description": "Complete pricing guide for concrete driveways including factors that affect cost",
+      "category": "Pricing"
+    },
+    {
+      "id": "blog-concrete-vs-asphalt",
+      "title": "Concrete vs Asphalt: Which is Better for {{STATE}}?",
+      "description": "Compare the pros and cons of concrete and asphalt driveways for your climate",
+      "category": "Comparison"
+    },
+    {
+      "id": "blog-replacement-signs",
+      "title": "5 Signs You Need to Replace Your Driveway",
+      "description": "Learn when it's time to replace rather than repair your concrete driveway",
+      "category": "Maintenance"
+    },
+    {
+      "id": "blog-grand-opening",
+      "title": "{{BUSINESS_NAME}}: Now Serving {{REGION}}!",
+      "description": "Announcing our professional concrete services in the {{REGION}} area",
+      "category": "News"
+    },
+    {
+      "id": "blog-florida-climate",
+      "title": "Why {{STATE}}'s Climate Demands Quality Concrete Work",
+      "description": "Understanding how local weather affects your concrete and why quality matters",
+      "category": "Education"
+    }
+  ],
+  "pricing": {
+    "perSqFtLow": "7",
+    "perSqFtHigh": "12",
+    "typicalSqFt": "600",
+    "typicalLow": "4200",
+    "typicalHigh": "7200",
+    "stampedPerSqFtLow": "12",
+    "stampedPerSqFtHigh": "18"
+  },
+  "seo": {
+    "gaId": "G-XXXXXXXXXX",
+    "gscVerification": "YOUR_VERIFICATION_CODE_HERE",
+    "ogImage": "/images/og-image.jpg"
+  },
+  "design": {
+    "colorPrimary": "#2D3436",
+    "colorSecondary": "#C4704A",
+    "colorAccent": "#636E72",
+    "colorBackground": "#F5F3EF",
+    "colorSurface": "#E8E4DD",
+    "colorText": "#1A1A1A",
+    "colorTextMuted": "#6B6B6B",
+    "colorTextLight": "#F5F3EF",
+    "colorBorder": "#D1CBC2",
+    "fontDisplay": "Clash Display",
+    "fontBody": "Outfit"
+  },
+  "content": {
+    "heroHeadline": "{{PRIMARY_CITY}}'s Trusted {{SERVICE_PRIMARY_CAP}} Experts",
+    "heroSubheadline": "Licensed & insured contractors serving {{REGION}}",
+    "metaDescription": "{{PRIMARY_CITY}}'s trusted {{SERVICE_PRIMARY}} experts. Licensed & insured. Free quotes on installation, replacement & stamped {{SERVICE_SECONDARY}}. Call {{PHONE}}.",
+    "urgencyBanner": {
+      "season": "Spring 2026",
+      "months": "March-May",
+      "message": "Installation Season Now Booking"
+    }
+  }
+}

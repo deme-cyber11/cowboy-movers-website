@@ -1,0 +1,2743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Movers | Cowboy Movers & Junk Removal | TX</title>
+
+    <!-- Google Analytics 4 - Replace with Marco's ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <meta name="description" content="Austin's top-rated movers. Licensed & insured moving company offering apartment moves, home moving & junk removal. Get your free quote today!">
+    <meta name="keywords" content="Austin movers, moving company Austin TX, local movers Austin, junk removal Austin, apartment movers Austin, home movers Texas">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.cowboymoversjunkremoval.com/">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Austin Movers | Cowboy Movers & Junk Removal">
+    <meta property="og:description" content="Professional apartment moving, home moving, and junk removal services. Licensed & insured movers you can trust.">
+    <meta property="og:url" content="https://www.cowboymoversjunkremoval.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Cowboy Movers & Junk Removal">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="author" content="Cowboy Movers & Junk Removal">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="theme-color" content="#1a1a1a">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+    <!-- Google Fonts - Western Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* ========================================
+           COWBOY MOVERS DESIGN SYSTEM
+           Western Minimalism
+        ======================================== */
+
+        :root {
+            /* Primary palette - Clean Minimalist */
+            --color-primary: #ffffff;      /* Pure white */
+            --color-secondary: #c9963c;    /* Muted gold */
+            --color-accent: #1a1a1a;       /* Near black */
+
+            /* Backgrounds */
+            --color-background: #ffffff;   /* White */
+            --color-surface: #ffffff;      /* White */
+            --color-surface-alt: #f8f8f8;  /* Very light gray */
+            --color-bg-warm: #faf8f5;      /* Warm cream */
+            --color-bg-cool: #f5f5f7;      /* Cool light gray */
+            --color-bg-sand: #f7f5f0;      /* Soft sand */
+
+            /* Text colors */
+            --color-text: #1a1a1a;         /* Near black */
+            --color-text-muted: #666666;   /* Medium gray */
+            --color-text-light: #ffffff;   /* White */
+
+            /* Functional */
+            --color-border: #e8e8e8;       /* Light gray border */
+            --color-success: #22c55e;      /* Modern green */
+
+            /* Typography */
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'Source Sans 3', -apple-system, sans-serif;
+
+            /* Spacing */
+            --section-padding: 5rem 2rem;
+            --container-max: 1100px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px; /* Account for fixed header */
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--color-text);
+            background: var(--color-background);
+            -webkit-font-smoothing: antialiased;
+            -webkit-tap-highlight-color: transparent; /* Clean taps on mobile */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 600;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* ========================================
+           HEADER - Minimal & Fixed
+        ======================================== */
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #ffffff;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        nav {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 1.25rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            fill: var(--color-secondary);
+        }
+
+        /* Icon styling */
+        .icon {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+            flex-shrink: 0;
+        }
+
+        .icon-sm {
+            width: 18px;
+            height: 18px;
+        }
+
+        .icon-lg {
+            width: 32px;
+            height: 32px;
+        }
+
+        .icon-xl {
+            width: 48px;
+            height: 48px;
+        }
+
+        .logo-text {
+            font-family: var(--font-display);
+            font-size: clamp(0.9rem, 3vw, 1.25rem);
+            font-weight: 600;
+            color: var(--color-text);
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
+
+        .logo-text span {
+            color: var(--color-secondary);
+            font-style: italic;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--color-text);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--color-secondary);
+        }
+
+        .nav-cta {
+            background: var(--color-secondary);
+            color: var(--color-primary) !important;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            opacity: 1 !important;
+            border-radius: 6px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(212, 168, 75, 0.4);
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--color-text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        /* ========================================
+           HERO - Full Impact with Background Image
+        ======================================== */
+
+        .hero {
+            margin-top: 72px;
+            min-height: 70vh;
+            padding: 6rem 2rem;
+            display: flex;
+            align-items: center;
+            background: url('hero-bg.png') center center / cover no-repeat;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(26, 22, 18, 0.85) 0%, rgba(26, 22, 18, 0.7) 100%);
+        }
+
+        .hero-content {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-text {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-text h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+            line-height: 1.15;
+        }
+
+        .hero-text h1 span {
+            color: var(--color-secondary);
+            font-style: italic;
+            display: block;
+        }
+
+        .hero-text > p {
+            font-size: 1.15rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-rating {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+            padding: 0.75rem 1.25rem;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+        }
+
+        .hero-rating .stars {
+            color: var(--color-secondary);
+            font-size: 1rem;
+            letter-spacing: 0.02em;
+        }
+
+        .hero-rating span {
+            color: #ffffff;
+            font-size: 0.9rem;
+        }
+
+        .hero-rating strong {
+            color: #ffffff;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero .btn-outline {
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .hero .btn-outline:hover {
+            border-color: #ffffff;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Mobile responsive hero */
+        @media (max-width: 992px) {
+            .hero {
+                padding: 4rem 1.5rem;
+                min-height: 60vh;
+            }
+
+            .hero-text h1 {
+                font-size: clamp(2rem, 7vw, 3rem);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .hero {
+                padding: 3rem 1.25rem;
+                min-height: auto;
+            }
+
+            .hero-rating {
+                flex-direction: column;
+                gap: 0.25rem;
+                border-radius: 8px;
+            }
+
+            .hero-cta-group {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .hero-cta-group .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hero-text > p {
+                font-size: 1rem;
+            }
+        }
+
+        /* Bottom border on header removed */
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            font-family: var(--font-display);
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-primary {
+            background: var(--color-secondary);
+            color: #1a1612;
+        }
+
+        .btn-primary .icon {
+            fill: #1a1612;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(212, 168, 75, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--color-text);
+            border: 2px solid var(--color-border);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--color-text);
+            background: var(--color-surface-alt);
+        }
+
+        /* ========================================
+           TRUST BAR - Clean Minimal
+        ======================================== */
+
+        .trust-bar {
+            background: var(--color-surface-alt);
+            border-bottom: 1px solid var(--color-border);
+            padding: 1.5rem 2rem;
+        }
+
+        .trust-items {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem 3rem;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-align: left;
+        }
+
+        .trust-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .trust-icon .icon {
+            width: 24px;
+            height: 24px;
+            fill: var(--color-secondary);
+        }
+
+        .trust-label {
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--color-text);
+        }
+
+        .trust-detail {
+            display: none;
+        }
+
+        /* ========================================
+           SERVICES - Clean Cards
+        ======================================== */
+
+        .services {
+            padding: var(--section-padding);
+            background: var(--color-background);
+            border-top: 1px solid var(--color-border);
+        }
+
+        .container {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3.5rem;
+        }
+
+        .section-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--color-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.75rem;
+        }
+
+        .section-label::before,
+        .section-label::after {
+            display: none;
+        }
+
+        .section-title {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            color: var(--color-text);
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .section-subtitle {
+            font-size: 1.05rem;
+            color: var(--color-text-muted);
+            max-width: 550px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .service-card {
+            background: var(--color-surface);
+            padding: 2rem;
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .service-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            border-color: var(--color-secondary);
+        }
+
+        .service-icon {
+            margin-bottom: 1.25rem;
+        }
+
+        .service-card .icon-xl {
+            width: 40px;
+            height: 40px;
+            fill: var(--color-secondary);
+        }
+
+        .service-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--color-text);
+        }
+
+        .service-card p {
+            color: var(--color-text-muted);
+            margin-bottom: 1.25rem;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .service-features {
+            list-style: none;
+            margin-bottom: 1.25rem;
+        }
+
+        .service-features li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 0;
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+        }
+
+        .service-features .check {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 16px;
+            height: 16px;
+        }
+
+        .service-features .check .icon {
+            width: 14px;
+            height: 14px;
+            fill: var(--color-success);
+        }
+
+        .service-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-secondary);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: gap 0.2s ease;
+        }
+
+        .service-link:hover {
+            gap: 0.75rem;
+        }
+
+        /* ========================================
+           WHY CHOOSE US - Light Minimal
+        ======================================== */
+
+        .why-us {
+            padding: var(--section-padding);
+            background: var(--color-bg-cool);
+            position: relative;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .feature-item {
+            display: flex;
+            gap: 1.25rem;
+            padding: 1.5rem;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+        }
+
+        .feature-number {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 500;
+            color: var(--color-secondary);
+            line-height: 1;
+            font-style: italic;
+            min-width: 50px;
+        }
+
+        .feature-content h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+
+        .feature-content p {
+            color: var(--color-text-muted);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        /* ========================================
+           TESTIMONIALS - Clean Minimal
+        ======================================== */
+
+        .testimonials {
+            padding: var(--section-padding);
+            background: var(--color-background);
+            border-top: 1px solid var(--color-border);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .testimonial-card {
+            background: var(--color-surface);
+            padding: 1.5rem;
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            transition: box-shadow 0.2s ease;
+        }
+
+        .testimonial-card:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+        }
+
+        .testimonial-stars {
+            color: var(--color-secondary);
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+
+        .testimonial-text {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--color-text);
+            margin-bottom: 1.25rem;
+            font-family: var(--font-body);
+            font-style: normal;
+        }
+
+        .testimonial-text::before {
+            display: none;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .author-avatar {
+            width: 40px;
+            height: 40px;
+            background: var(--color-surface-alt);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+        }
+
+        .author-info h4 {
+            font-size: 0.9rem;
+            color: var(--color-text);
+        }
+
+        .author-info span {
+            font-size: 0.8rem;
+            color: var(--color-text-muted);
+        }
+
+        /* ========================================
+           CTA SECTION - Clean Minimal
+        ======================================== */
+
+        .cta-section {
+            padding: 4rem 2rem;
+            background: var(--color-bg-sand);
+            text-align: center;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .cta-badge {
+            display: inline-block;
+            background: rgba(201, 150, 60, 0.1);
+            color: var(--color-secondary);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            margin-bottom: 1.25rem;
+        }
+
+        .cta-section h2 {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            color: var(--color-text);
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .cta-section > .container > p {
+            font-size: 1rem;
+            color: var(--color-text-muted);
+            margin-bottom: 1.5rem;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .cta-note {
+            margin-top: 1.25rem;
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+            margin-bottom: 0 !important;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-dark {
+            background: var(--color-secondary);
+            color: #1a1612;
+        }
+
+        .btn-dark .icon {
+            fill: #1a1612;
+        }
+
+        .btn-dark:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(212, 168, 75, 0.3);
+        }
+
+        .cta-section .btn-outline {
+            border-color: var(--color-border);
+            color: var(--color-text);
+        }
+
+        .cta-section .btn-outline:hover {
+            border-color: var(--color-text);
+            background: var(--color-surface);
+        }
+
+        .cta-section .btn-outline .icon {
+            fill: var(--color-text);
+        }
+
+        /* ========================================
+           ABOUT PREVIEW - Clean Minimal
+        ======================================== */
+
+        .about-preview {
+            padding: var(--section-padding);
+            background: var(--color-bg-warm);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .about-image::after,
+        .about-image::before {
+            display: none;
+        }
+
+        .about-content .section-label {
+            text-align: left;
+            justify-content: flex-start;
+        }
+
+        .about-content h2 {
+            font-size: 2rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .about-content p {
+            color: var(--color-text-muted);
+            margin-bottom: 1rem;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .stat-item h3 {
+            font-size: 2rem;
+            color: var(--color-secondary);
+            margin-bottom: 0.25rem;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .stat-item p {
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+            margin: 0;
+        }
+
+        /* ========================================
+           FOOTER - Clean Minimal
+        ======================================== */
+
+        footer {
+            background: var(--color-surface-alt);
+            color: var(--color-text);
+            padding: 3rem 2rem 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .footer-content {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .footer-brand .logo-text {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--color-text);
+        }
+
+        .footer-brand p {
+            color: var(--color-text-muted);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            font-size: 0.9rem;
+        }
+
+        .footer-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+        }
+
+        .footer-contact-item a {
+            color: var(--color-text-muted);
+            transition: color 0.2s ease;
+        }
+
+        .footer-contact-item a:hover {
+            color: var(--color-secondary);
+        }
+
+        .footer-contact-item .icon {
+            fill: var(--color-secondary);
+            width: 16px;
+            height: 16px;
+        }
+
+        .footer-section h4 {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+            font-weight: 600;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--color-secondary);
+        }
+
+        .footer-bottom {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding-top: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            color: var(--color-text-muted);
+        }
+
+        /* ========================================
+           MOBILE RESPONSIVE
+        ======================================== */
+
+        @media (max-width: 992px) {
+            nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #ffffff;
+                flex-direction: column;
+                padding: 1.5rem 2rem;
+                gap: 1rem;
+                border-top: 1px solid var(--color-border);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links a {
+                padding: 0.75rem 0;
+                font-size: 1.1rem;
+            }
+
+            .menu-toggle {
+                display: block;
+                padding: 0.75rem;
+                min-width: 44px;
+                min-height: 44px;
+            }
+
+            .hero {
+                min-height: auto;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-phone {
+                display: none;
+            }
+
+            .trust-items {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .trust-item:nth-child(2) {
+                border-right: none;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .service-card {
+                padding: 2rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .about-image::after {
+                display: none;
+            }
+
+            .about-image img {
+                height: 300px;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+            }
+
+            .section-header {
+                margin-bottom: 2.5rem;
+            }
+
+            :root {
+                --section-padding: 4rem 1.5rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 0.875rem 1rem;
+            }
+
+            .logo-icon {
+                width: 28px;
+                height: 28px;
+            }
+
+            .hero {
+                min-height: auto;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .trust-items {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-item {
+                border-right: none;
+                border-bottom: 1px solid var(--color-border);
+                padding: 1.5rem 1rem;
+            }
+
+            .trust-item:last-child {
+                border-bottom: none;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .about-image img {
+                height: 250px;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .footer-brand {
+                text-align: center;
+            }
+
+            .footer-contact-item {
+                justify-content: center;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .cta-buttons .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .how-it-works-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .step-item {
+                padding: 1.5rem 1rem;
+            }
+
+            .step-item::after {
+                display: none;
+            }
+
+            .section-title {
+                font-size: 1.75rem;
+            }
+
+            .btn {
+                padding: 0.875rem 1.5rem;
+                font-size: 0.95rem;
+            }
+
+            :root {
+                --section-padding: 3rem 1rem;
+            }
+        }
+
+        /* ========================================
+           SCROLL ANIMATIONS
+        ======================================== */
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .fade-in-left {
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in-left.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .fade-in-right {
+            opacity: 0;
+            transform: translateX(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in-right.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ========================================
+           HOW IT WORKS - Clean Minimal
+        ======================================== */
+
+        .how-it-works {
+            padding: var(--section-padding);
+            background: var(--color-bg-warm);
+            border-top: 1px solid var(--color-border);
+        }
+
+        .how-it-works-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .step-item {
+            text-align: center;
+            position: relative;
+            padding: 1.5rem;
+        }
+
+        .step-item::after {
+            display: none;
+        }
+
+        .step-number {
+            width: 48px;
+            height: 48px;
+            background: var(--color-secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.25rem;
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .step-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+
+        .step-item p {
+            color: var(--color-text-muted);
+            line-height: 1.6;
+            font-size: 0.9rem;
+        }
+
+        /* ========================================
+           SERVICE AREAS SECTION
+        ======================================== */
+
+        .service-areas {
+            padding: 3rem 2rem;
+            background: var(--color-bg-sand);
+            border-top: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .areas-content {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .areas-content h3 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        .areas-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem 1.5rem;
+            color: var(--color-text-muted);
+            font-size: 0.95rem;
+        }
+
+        .areas-list span {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .areas-list span::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: var(--color-secondary);
+            border-radius: 50%;
+        }
+
+        /* ========================================
+           STICKY MOBILE CTA
+        ======================================== */
+
+        .mobile-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #1a1612;
+            padding: 1rem;
+            z-index: 999;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .mobile-cta a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            background: var(--color-secondary);
+            color: var(--color-primary);
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: var(--font-display);
+            font-weight: 600;
+            font-size: 1.1rem;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-cta {
+                display: block;
+            }
+
+            footer {
+                padding-bottom: 6rem;
+            }
+        }
+
+        /* ========================================
+           GOOGLE REVIEWS BADGE
+        ======================================== */
+
+        .google-reviews-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 0.75rem 1.25rem;
+            margin-top: 1.5rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .google-reviews-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .google-reviews-badge .stars {
+            color: #fbbf24;
+            font-size: 1.1rem;
+            letter-spacing: 0.05em;
+        }
+
+        .google-reviews-badge span {
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+        }
+
+        .google-reviews-badge strong {
+            color: var(--color-text);
+        }
+
+        /* ========================================
+           SOCIAL PROOF BAR
+        ======================================== */
+        .social-proof-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            padding: 2rem;
+            background: var(--color-bg-warm);
+            border-top: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .social-proof-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.25rem;
+            text-align: center;
+        }
+
+        .social-proof-number {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--color-secondary);
+            line-height: 1;
+            font-style: italic;
+        }
+
+        .social-proof-label {
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+            font-weight: 500;
+        }
+
+        /* ========================================
+           URGENCY ELEMENTS
+        ======================================== */
+        .availability-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.625rem 1rem;
+            background: #ecfdf5;
+            border: 1px solid #a7f3d0;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #047857;
+        }
+
+        .availability-dot {
+            width: 8px;
+            height: 8px;
+            background: #10b981;
+            border-radius: 50%;
+            animation: availability-blink 1.5s ease-in-out infinite;
+        }
+
+        @keyframes availability-blink {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.9); }
+        }
+
+        .guarantee-badge-compact {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(201, 150, 60, 0.1);
+            border: 1px solid rgba(201, 150, 60, 0.3);
+            border-radius: 6px;
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            color: var(--color-text);
+            font-weight: 500;
+        }
+
+        .guarantee-badge-compact svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--color-secondary);
+        }
+
+        /* ========================================
+           FAQ SECTION
+        ======================================== */
+        .faq-section {
+            padding: var(--section-padding);
+            background: var(--color-bg-cool);
+            border-top: 1px solid var(--color-border);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .faq-item:hover {
+            border-color: var(--color-secondary);
+        }
+
+        .faq-item[open] {
+            border-color: var(--color-secondary);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+        }
+
+        .faq-question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem 1.5rem;
+            cursor: pointer;
+            list-style: none;
+            user-select: none;
+            transition: background 0.2s ease;
+        }
+
+        .faq-question::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-question:hover {
+            background: var(--color-surface-alt);
+        }
+
+        .faq-question-text {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--color-text);
+            line-height: 1.4;
+            padding-right: 1rem;
+        }
+
+        .faq-icon {
+            flex-shrink: 0;
+            width: 28px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(201, 150, 60, 0.1);
+            border-radius: 50%;
+            transition: transform 0.3s ease, background 0.2s ease;
+        }
+
+        .faq-icon .icon {
+            width: 16px;
+            height: 16px;
+            fill: var(--color-secondary);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item[open] .faq-icon {
+            background: var(--color-secondary);
+        }
+
+        .faq-item[open] .faq-icon .icon {
+            fill: #ffffff;
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem 1.5rem 1.5rem;
+            border-top: 1px solid var(--color-border);
+            animation: faqFadeIn 0.3s ease;
+        }
+
+        @keyframes faqFadeIn {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .faq-answer p {
+            color: var(--color-text-muted);
+            line-height: 1.7;
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .faq-answer p:first-child {
+            margin-top: 1.25rem;
+        }
+
+        .faq-answer strong {
+            color: var(--color-text);
+            font-weight: 600;
+        }
+
+        .faq-answer a {
+            color: var(--color-secondary);
+            font-weight: 600;
+            text-decoration: underline;
+            text-decoration-color: rgba(201, 150, 60, 0.3);
+            text-underline-offset: 2px;
+        }
+
+        .faq-answer a:hover {
+            text-decoration-color: var(--color-secondary);
+        }
+
+        .faq-answer ul {
+            margin: 1rem 0;
+            padding-left: 1.25rem;
+            color: var(--color-text-muted);
+        }
+
+        .faq-answer li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .faq-cta {
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .faq-cta-content {
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 12px;
+            padding: 2.5rem 2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .faq-cta-content h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--color-text);
+            margin-bottom: 0.75rem;
+        }
+
+        .faq-cta-content > p {
+            color: var(--color-text-muted);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .faq-cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .social-proof-bar {
+                gap: 1.5rem;
+                padding: 1.5rem 1rem;
+            }
+            .social-proof-number {
+                font-size: 2rem;
+            }
+            .faq-question {
+                padding: 1rem 1.25rem;
+            }
+            .faq-question-text {
+                font-size: 1rem;
+            }
+            .faq-answer {
+                padding: 0 1.25rem 1.25rem 1.25rem;
+            }
+            .faq-cta-content {
+                padding: 2rem 1.5rem;
+            }
+            .faq-cta-buttons {
+                flex-direction: column;
+            }
+            .faq-cta-buttons .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+
+    <!-- Schema Markup: LocalBusiness (MovingCompany) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MovingCompany",
+        "@id": "https://www.cowboymoversjunkremoval.com/#organization",
+        "name": "Cowboy Movers & Junk Removal",
+        "alternateName": "Cowboy Movers",
+        "description": "Professional apartment moving, home moving, and junk removal services in Austin, TX and surrounding areas. Licensed & insured movers providing reliable, stress-free relocations with transparent pricing and careful handling of your belongings.",
+        "url": "https://www.cowboymoversjunkremoval.com",
+        "logo": "https://www.cowboymoversjunkremoval.com/logo.png",
+        "image": "https://www.cowboymoversjunkremoval.com/hero-bg.png",
+        "telephone": ["+1-208-640-0083", "+1-208-819-4694"],
+        "email": "marcorojo99@yahoo.com",
+        "foundingDate": "2020",
+        "priceRange": "$$",
+        "currenciesAccepted": "USD",
+        "paymentAccepted": "Cash, Credit Card, Debit Card, Venmo, Zelle",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Austin",
+            "addressRegion": "TX",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "30.2672",
+            "longitude": "-97.7431"
+        },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Austin",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            },
+            {
+                "@type": "City",
+                "name": "Round Rock",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            },
+            {
+                "@type": "City",
+                "name": "Cedar Park",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            },
+            {
+                "@type": "City",
+                "name": "Pflugerville",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            },
+            {
+                "@type": "City",
+                "name": "Georgetown",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            },
+            {
+                "@type": "City",
+                "name": "Leander",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            },
+            {
+                "@type": "City",
+                "name": "Kyle",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            },
+            {
+                "@type": "City",
+                "name": "Buda",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            },
+            {
+                "@type": "City",
+                "name": "Lakeway",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            },
+            {
+                "@type": "City",
+                "name": "Dripping Springs",
+                "containedInPlace": {"@type": "State", "name": "Texas"}
+            }
+        ],
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "07:00",
+                "closes": "20:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "08:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Sunday",
+                "opens": "09:00",
+                "closes": "17:00"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "47",
+            "reviewCount": "47"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "John D."
+                },
+                "datePublished": "2024-11-15",
+                "reviewBody": "Best moving experience I've ever had. The team was professional, fast, and nothing was damaged. Will definitely use again!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Sarah M."
+                },
+                "datePublished": "2024-10-22",
+                "reviewBody": "They showed up on time and worked efficiently. My whole 3-bedroom house was moved in under 4 hours. Incredible!",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "Review",
+                "author": {
+                    "@type": "Person",
+                    "name": "Robert K."
+                },
+                "datePublished": "2024-09-08",
+                "reviewBody": "Called for junk removal and they came the same day. Cleared out my garage in no time. Fair price and great service.",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                }
+            }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Moving & Junk Removal Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "@id": "https://www.cowboymoversjunkremoval.com/#apartment-moving",
+                        "name": "Apartment Moving"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "@id": "https://www.cowboymoversjunkremoval.com/#home-moving",
+                        "name": "Home Moving"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "@id": "https://www.cowboymoversjunkremoval.com/#junk-removal",
+                        "name": "Junk Removal"
+                    }
+                }
+            ]
+        },
+        "slogan": "Austin's Trusted Moving & Junk Removal Experts",
+        "knowsAbout": ["Moving Services", "Residential Moving", "Apartment Moving", "Junk Removal", "Furniture Moving", "Local Moving", "Packing Services"],
+        "sameAs": []
+    }
+    </script>
+
+    <!-- Schema Markup: Service - Apartment Moving -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.cowboymoversjunkremoval.com/#apartment-moving",
+        "name": "Apartment Moving Services",
+        "alternateName": "Apartment Relocation",
+        "description": "Professional apartment moving services in Austin, TX. From studios to high-rise units, we navigate stairs, elevators, and tight spaces with ease. Services include furniture disassembly, blanket wrapping, and building coordination.",
+        "provider": {
+            "@type": "MovingCompany",
+            "@id": "https://www.cowboymoversjunkremoval.com/#organization",
+            "name": "Cowboy Movers & Junk Removal"
+        },
+        "serviceType": "Apartment Moving",
+        "areaServed": {
+            "@type": "State",
+            "name": "Texas",
+            "containedInPlace": {"@type": "Country", "name": "United States"}
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Apartment Moving Features",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "1st to 20th Floor Moves"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furniture Disassembly & Reassembly"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Blanket Wrapping Protection"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Building & Elevator Coordination"}}
+            ]
+        },
+        "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "USD"
+            }
+        },
+        "termsOfService": "https://www.cowboymoversjunkremoval.com/terms"
+    }
+    </script>
+
+    <!-- Schema Markup: Service - Home Moving -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.cowboymoversjunkremoval.com/#home-moving",
+        "name": "Home Moving Services",
+        "alternateName": "Residential Moving",
+        "description": "Full-service residential moving for houses of all sizes in Austin, TX. We pack, load, transport, and unload with care. Services include local and long-distance moves, packing services, large furniture handling, and same-day availability.",
+        "provider": {
+            "@type": "MovingCompany",
+            "@id": "https://www.cowboymoversjunkremoval.com/#organization",
+            "name": "Cowboy Movers & Junk Removal"
+        },
+        "serviceType": "Residential Moving",
+        "areaServed": {
+            "@type": "State",
+            "name": "Texas",
+            "containedInPlace": {"@type": "Country", "name": "United States"}
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Home Moving Features",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Local & Long-Distance Moves"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Professional Packing Services"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Large Furniture Handling"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Same-Day Moving Available"}}
+            ]
+        },
+        "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "USD"
+            }
+        },
+        "termsOfService": "https://www.cowboymoversjunkremoval.com/terms"
+    }
+    </script>
+
+    <!-- Schema Markup: Service - Junk Removal -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": "https://www.cowboymoversjunkremoval.com/#junk-removal",
+        "name": "Junk Removal Services",
+        "alternateName": "Junk Hauling",
+        "description": "Fast, eco-friendly junk removal in Austin, TX. We haul away furniture, appliances, yard waste, and more. Same-day service available with responsible disposal practices. Estate cleanouts and appliance removal included.",
+        "provider": {
+            "@type": "MovingCompany",
+            "@id": "https://www.cowboymoversjunkremoval.com/#organization",
+            "name": "Cowboy Movers & Junk Removal"
+        },
+        "serviceType": "Junk Removal",
+        "areaServed": {
+            "@type": "State",
+            "name": "Texas",
+            "containedInPlace": {"@type": "Country", "name": "United States"}
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Junk Removal Features",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Same-Day Junk Removal"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Eco-Friendly Disposal & Recycling"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Appliance Removal"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Estate Cleanouts"}}
+            ]
+        },
+        "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "USD"
+            }
+        },
+        "termsOfService": "https://www.cowboymoversjunkremoval.com/terms"
+    }
+    </script>
+
+    <!-- Schema Markup: FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How much does it cost to hire movers in Austin, TX?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Moving costs in Austin vary based on the size of your move, distance, and services needed. At Cowboy Movers & Junk Removal, we provide free, transparent quotes with no hidden fees. Most local apartment moves start around $300-$500, while home moves typically range from $500-$1,500 depending on size. Call us at (208) 640-0083 for a personalized quote."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you offer same-day moving services in Austin?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! Cowboy Movers & Junk Removal offers same-day moving services when availability permits. We understand that sometimes moves happen unexpectedly, and we're here to help. Contact us as early as possible to check same-day availability. We're open Monday-Friday 7am-8pm, Saturday 8am-6pm, and Sunday 9am-5pm."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What areas in Austin do you serve?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We proudly serve Austin and all surrounding areas including Round Rock, Cedar Park, Pflugerville, Georgetown, Leander, Kyle, Buda, Lakeway, and Dripping Springs. Whether you're moving within Austin or relocating to a nearby suburb, our professional team is ready to help make your move stress-free."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are your movers licensed and insured?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely! Cowboy Movers & Junk Removal is fully licensed and insured, providing you complete peace of mind during your move. Our full liability coverage protects your belongings throughout the entire moving process. Every item is handled with care, blanket-wrapped, and secured for transport."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What items do you remove with your junk removal service?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our junk removal service handles a wide variety of items including old furniture, appliances (refrigerators, washers, dryers), mattresses, yard waste, construction debris, electronics, and general household clutter. We also specialize in estate cleanouts. We practice responsible disposal with recycling and donation when possible. Some hazardous materials may have restrictions - contact us for specifics."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema Markup: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.cowboymoversjunkremoval.com/"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema Markup: WebSite with SearchAction -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Cowboy Movers & Junk Removal",
+        "url": "https://www.cowboymoversjunkremoval.com",
+        "description": "Professional moving and junk removal services in Austin, TX",
+        "publisher": {
+            "@type": "MovingCompany",
+            "@id": "https://www.cowboymoversjunkremoval.com/#organization"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- SVG Icon Sprite -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <!-- Cowboy Hat -->
+        <symbol id="icon-cowboy" viewBox="0 0 24 24">
+            <path d="M12 2C9.5 2 7.5 3.5 7 5.5L4 7C3.5 7.2 3 7.8 3 8.5V9C3 9.6 3.4 10 4 10H5L6 14H4C3.4 14 3 14.4 3 15V16C3 16.6 3.4 17 4 17H20C20.6 17 21 16.6 21 16V15C21 14.4 20.6 14 20 14H18L19 10H20C20.6 10 21 9.6 21 9V8.5C21 7.8 20.5 7.2 20 7L17 5.5C16.5 3.5 14.5 2 12 2ZM12 4C13.7 4 15.1 5.1 15.4 6.5L12 8L8.6 6.5C8.9 5.1 10.3 4 12 4ZM7 10H17L16 14H8L7 10Z"/>
+        </symbol>
+        <!-- Shield/Check (Licensed) -->
+        <symbol id="icon-shield-check" viewBox="0 0 24 24">
+            <path d="M12 1L3 5V11C3 16.5 6.8 21.7 12 23C17.2 21.7 21 16.5 21 11V5L12 1ZM10 17L6 13L7.4 11.6L10 14.2L16.6 7.6L18 9L10 17Z"/>
+        </symbol>
+        <!-- Clock -->
+        <symbol id="icon-clock" viewBox="0 0 24 24">
+            <path d="M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2ZM12 20C7.6 20 4 16.4 4 12S7.6 4 12 4 20 7.6 20 12 16.4 20 12 20ZM12.5 7H11V13L16.2 16.2L17 14.9L12.5 12.2V7Z"/>
+        </symbol>
+        <!-- Strong/Muscle -->
+        <symbol id="icon-muscle" viewBox="0 0 24 24">
+            <path d="M3 18.5V13H5V18.5C5 19.3 5.7 20 6.5 20C7.3 20 8 19.3 8 18.5V14H10V18.5C10 20.4 8.4 22 6.5 22C4.6 22 3 20.4 3 18.5ZM21 13V18.5C21 20.4 19.4 22 17.5 22C15.6 22 14 20.4 14 18.5V14H16V18.5C16 19.3 16.7 20 17.5 20C18.3 20 19 19.3 19 18.5V13H21ZM12 8C14.2 8 16 6.2 16 4H18C18 7.3 15.3 10 12 10C8.7 10 6 7.3 6 4H8C8 6.2 9.8 8 12 8Z"/>
+        </symbol>
+        <!-- Clipboard/Document -->
+        <symbol id="icon-clipboard" viewBox="0 0 24 24">
+            <path d="M19 3H14.8C14.4 1.8 13.3 1 12 1C10.7 1 9.6 1.8 9.2 3H5C3.9 3 3 3.9 3 5V21C3 22.1 3.9 23 5 23H19C20.1 23 21 22.1 21 21V5C21 3.9 20.1 3 19 3ZM12 3C12.6 3 13 3.4 13 4C13 4.6 12.6 5 12 5C11.4 5 11 4.6 11 4C11 3.4 11.4 3 12 3ZM19 21H5V5H7V7H17V5H19V21Z"/>
+        </symbol>
+        <!-- Building/Apartment -->
+        <symbol id="icon-building" viewBox="0 0 24 24">
+            <path d="M17 11V3H7V7H3V21H11V17H13V21H21V11H17ZM7 19H5V17H7V19ZM7 15H5V13H7V15ZM7 11H5V9H7V11ZM11 15H9V13H11V15ZM11 11H9V9H11V11ZM11 7H9V5H11V7ZM15 15H13V13H15V15ZM15 11H13V9H15V11ZM15 7H13V5H15V7ZM19 19H17V17H19V19ZM19 15H17V13H19V15Z"/>
+        </symbol>
+        <!-- Home -->
+        <symbol id="icon-home" viewBox="0 0 24 24">
+            <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z"/>
+        </symbol>
+        <!-- Trash/Junk -->
+        <symbol id="icon-trash" viewBox="0 0 24 24">
+            <path d="M6 19C6 20.1 6.9 21 8 21H16C17.1 21 18 20.1 18 19V7H6V19ZM8 9H16V19H8V9ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z"/>
+        </symbol>
+        <!-- Check -->
+        <symbol id="icon-check" viewBox="0 0 24 24">
+            <path d="M9 16.2L4.8 12L3.4 13.4L9 19L21 7L19.6 5.6L9 16.2Z"/>
+        </symbol>
+        <!-- Phone -->
+        <symbol id="icon-phone" viewBox="0 0 24 24">
+            <path d="M6.6 10.8C8 13.6 10.4 15.9 13.2 17.4L15.4 15.2C15.7 14.9 16.1 14.8 16.4 14.9C17.5 15.3 18.7 15.5 20 15.5C20.6 15.5 21 15.9 21 16.5V20C21 20.6 20.6 21 20 21C10.6 21 3 13.4 3 4C3 3.4 3.4 3 4 3H7.5C8.1 3 8.5 3.4 8.5 4C8.5 5.2 8.7 6.4 9.1 7.6C9.2 7.9 9.1 8.3 8.8 8.6L6.6 10.8Z"/>
+        </symbol>
+        <!-- Email -->
+        <symbol id="icon-email" viewBox="0 0 24 24">
+            <path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+        </symbol>
+        <!-- Star -->
+        <symbol id="icon-star" viewBox="0 0 24 24">
+            <path d="M12 17.3L18.2 21L16.5 13.9L22 9.2L14.8 8.6L12 2L9.2 8.6L2 9.2L7.5 13.9L5.8 21L12 17.3Z"/>
+        </symbol>
+        <!-- Location/Map Pin -->
+        <symbol id="icon-location" viewBox="0 0 24 24">
+            <path d="M12 2C8.1 2 5 5.1 5 9C5 14.2 12 22 12 22S19 14.2 19 9C19 5.1 15.9 2 12 2ZM12 11.5C10.6 11.5 9.5 10.4 9.5 9C9.5 7.6 10.6 6.5 12 6.5C13.4 6.5 14.5 7.6 14.5 9C14.5 10.4 13.4 11.5 12 11.5Z"/>
+        </symbol>
+    </svg>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="/" class="logo">
+                <svg class="logo-icon"><use href="#icon-cowboy"/></svg>
+                <span class="logo-text">Cowboy <span>Movers</span> & Junk Removal</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="tel:+12086400083" class="nav-cta">Get Free Quote</a></li>
+            </ul>
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Austin's Trusted <span>Moving & Junk Removal</span> Experts</h1>
+                <p>Austin's trusted local movers who show up on time and treat your belongings like our own. Licensed, insured moving company ready to make your move stress-free.</p>
+                <div class="hero-rating">
+                    <span class="stars">★★★★★</span>
+                    <span><strong>5.0 Rating</strong> from verified customers</span>
+                </div>
+                <div class="hero-cta-group">
+                    <a href="tel:+12086400083" class="btn btn-primary">
+                        <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                        Call (208) 640-0083
+                    </a>
+                    <a href="#services" class="btn btn-outline">
+                        View Our Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar">
+        <div class="trust-items">
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-shield-check"/></svg></div>
+                <div class="trust-label">Licensed & Insured</div>
+                <div class="trust-detail">Full liability coverage</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-clock"/></svg></div>
+                <div class="trust-label">On-Time Guarantee</div>
+                <div class="trust-detail">We respect your schedule</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-muscle"/></svg></div>
+                <div class="trust-label">Experienced Crew</div>
+                <div class="trust-detail">Trained professionals</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon"><svg class="icon"><use href="#icon-clipboard"/></svg></div>
+                <div class="trust-label">Free Estimates</div>
+                <div class="trust-detail">No hidden fees</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Bar -->
+    <section class="social-proof-bar">
+        <div class="social-proof-item">
+            <div class="social-proof-number">500+</div>
+            <div class="social-proof-label">Families Moved</div>
+        </div>
+        <div class="social-proof-item">
+            <div class="social-proof-number">5.0</div>
+            <div class="social-proof-label">Google Rating</div>
+        </div>
+        <div class="social-proof-item">
+            <div class="social-proof-number">100%</div>
+            <div class="social-proof-label">On-Time Rate</div>
+        </div>
+        <div class="social-proof-item">
+            <div class="social-proof-number">0</div>
+            <div class="social-proof-label">Damage Claims</div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">How It Works</div>
+                <h2 class="section-title">Three Simple Steps</h2>
+                <p class="section-subtitle">Getting started is easy. We handle the heavy lifting so you don't have to.</p>
+            </div>
+            <div class="how-it-works-grid">
+                <div class="step-item fade-in">
+                    <div class="step-number">1</div>
+                    <h3>Call or Text</h3>
+                    <p>Reach out for a free quote. Tell us about your move and we'll give you an honest price upfront.</p>
+                </div>
+                <div class="step-item fade-in">
+                    <div class="step-number">2</div>
+                    <h3>Schedule Your Move</h3>
+                    <p>Pick a date that works for you. We offer flexible scheduling including same-day service when available.</p>
+                </div>
+                <div class="step-item fade-in">
+                    <div class="step-number">3</div>
+                    <h3>Sit Back & Relax</h3>
+                    <p>Our professional crew shows up on time and handles everything. You're in good hands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Our Services</div>
+                <h2 class="section-title">What We Do Best</h2>
+                <p class="section-subtitle">Whether you're moving across town or clearing out clutter, we've got you covered with reliable, professional service.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Apartment Moving -->
+                <div class="service-card">
+                    <svg class="icon icon-xl"><use href="#icon-building"/></svg>
+                    <h3>Apartment Moving</h3>
+                    <p>From studios to high-rise units, we navigate stairs, elevators, and tight spaces with ease. No floor is too high.</p>
+                    <ul class="service-features">
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> 1st to 20th floor moves</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Furniture disassembly</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Blanket wrapping included</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Building coordination</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get a Quote →</a>
+                </div>
+
+                <!-- Home Moving -->
+                <div class="service-card">
+                    <svg class="icon icon-xl"><use href="#icon-home"/></svg>
+                    <h3>Home Moving</h3>
+                    <p>Full-service residential moving for houses of all sizes. We pack, load, transport, and unload with care.</p>
+                    <ul class="service-features">
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Local & long-distance</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Packing services available</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Large furniture handling</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Same-day moves available</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get a Quote →</a>
+                </div>
+
+                <!-- Junk Removal -->
+                <div class="service-card">
+                    <svg class="icon icon-xl"><use href="#icon-trash"/></svg>
+                    <h3>Junk Removal</h3>
+                    <p>Fast, eco-friendly junk removal. We haul away furniture, appliances, yard waste, and more. You point, we load.</p>
+                    <ul class="service-features">
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Same-day service</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Responsible disposal</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Appliance removal</li>
+                        <li><span class="check"><svg class="icon"><use href="#icon-check"/></svg></span> Estate cleanouts</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get a Quote →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section class="service-areas">
+        <div class="areas-content">
+            <h3>Proudly Serving Austin & Surrounding Areas</h3>
+            <div class="areas-list">
+                <span>Downtown Austin</span>
+                <span>Round Rock</span>
+                <span>Cedar Park</span>
+                <span>Pflugerville</span>
+                <span>Georgetown</span>
+                <span>Leander</span>
+                <span>Kyle</span>
+                <span>Buda</span>
+                <span>Lakeway</span>
+                <span>Dripping Springs</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Why Cowboy Movers</div>
+                <h2 class="section-title">Moving Done Right</h2>
+                <p class="section-subtitle">We're not your average movers. Here's what sets us apart.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-number">01</div>
+                    <div class="feature-content">
+                        <h3>Transparent Pricing</h3>
+                        <p>No surprise fees or hidden charges. We provide detailed quotes upfront so you know exactly what to expect. The price we quote is the price you pay.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">02</div>
+                    <div class="feature-content">
+                        <h3>Careful Handling</h3>
+                        <p>Your belongings are treated like our own. Every item is blanket-wrapped, secured, and transported with the utmost care.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">03</div>
+                    <div class="feature-content">
+                        <h3>Punctual & Professional</h3>
+                        <p>We show up on time, every time. Our crew arrives ready to work, in uniform, and with all the equipment needed for an efficient move.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">04</div>
+                    <div class="feature-content">
+                        <h3>Fully Insured</h3>
+                        <p>Complete peace of mind knowing your move is protected. Full liability coverage means you're covered if anything unexpected happens.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1600518464441-9154a4dea21b?auto=format&fit=crop&w=800&q=80" alt="Austin moving company crew loading furniture into truck" loading="lazy">
+                </div>
+                <div class="about-content">
+                    <div class="section-label">About Us</div>
+                    <h2>Galloping Into Action <span style="font-style: italic; color: var(--color-secondary);">Since Day One</span></h2>
+                    <p>Cowboy Movers was founded with a simple mission: provide honest, reliable moving services that take the stress out of relocating. We treat every move like it's our own.</p>
+                    <p>Our experienced team handles everything from small apartment moves to full house relocations and junk removal. We're licensed, insured, and committed to exceeding your expectations.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>500+</h3>
+                            <p>Successful Moves</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Satisfaction Goal</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5★</h3>
+                            <p>Google Rating</p>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com/search?q=Cowboy+Movers+Austin+TX+reviews" target="_blank" rel="noopener" class="google-reviews-badge">
+                        <span class="stars">★★★★★</span>
+                        <span><strong>5.0</strong> on Google Reviews</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Testimonials</div>
+                <h2 class="section-title">What Customers Say</h2>
+                <p class="section-subtitle">Don't just take our word for it. Here's what our customers have to say.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Best moving experience I've ever had. The team was professional, fast, and nothing was damaged. Will definitely use again!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4>John D.</h4>
+                            <span>Apartment Move</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"They showed up on time and worked efficiently. My whole 3-bedroom house was moved in under 4 hours. Incredible!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4>Sarah M.</h4>
+                            <span>Home Move</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Called for junk removal and they came the same day. Cleared out my garage in no time. Fair price and great service."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div class="author-info">
+                            <h4>Robert K.</h4>
+                            <span>Junk Removal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Common Questions</div>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know before your move. Can't find your answer? Give us a call.</p>
+            </div>
+
+            <div class="faq-container">
+                <!-- FAQ 1: Pricing -->
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span class="faq-question-text">How do you determine pricing for a move?</span>
+                        <span class="faq-icon">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/></svg>
+                        </span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Our pricing is based on the size of your move, distance between locations, any stairs or elevators involved, and time of year. We provide <strong>free, no-obligation estimates</strong> over the phone or via text with transparent pricing and no hidden fees.</p>
+                        <p>The quote we give you is the price you pay. <a href="tel:+12086400083">Call us now</a> for your free personalized quote.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 2: Insurance -->
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span class="faq-question-text">Are you licensed and insured?</span>
+                        <span class="faq-icon">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/></svg>
+                        </span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p><strong>Yes, we are fully licensed and insured.</strong> Your belongings are protected throughout the entire moving process. We carry comprehensive liability coverage, giving you complete peace of mind.</p>
+                        <p>Our track record speaks for itself: <strong>500+ successful moves</strong> and a <strong>5-star Google rating</strong> from customers who trust us.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 3: Service Areas -->
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span class="faq-question-text">What areas do you serve?</span>
+                        <span class="faq-icon">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/></svg>
+                        </span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>We proudly serve <strong>Austin, Texas and all surrounding areas</strong>, including: Downtown Austin, Round Rock, Cedar Park, Pflugerville, Georgetown, Leander, Kyle, Buda, Lakeway, and Dripping Springs.</p>
+                        <p>We also handle <strong>long-distance moves</strong> throughout Texas. <a href="tel:+12086400083">Give us a call</a> to confirm your area.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 4: What's Included -->
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span class="faq-question-text">What's included in your moving service?</span>
+                        <span class="faq-icon">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/></svg>
+                        </span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Every move includes:</p>
+                        <ul>
+                            <li><strong>Professional moving crew</strong> - experienced, uniformed movers</li>
+                            <li><strong>Moving truck</strong> - properly sized for your move</li>
+                            <li><strong>Blanket wrapping</strong> - protection at no extra charge</li>
+                            <li><strong>Furniture disassembly/reassembly</strong> - beds, tables as needed</li>
+                            <li><strong>Loading and unloading</strong> - we do all the heavy lifting</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <!-- FAQ 5: Same-Day -->
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span class="faq-question-text">Do you offer same-day moving services?</span>
+                        <span class="faq-icon">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/></svg>
+                        </span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p><strong>Yes!</strong> We offer same-day moving services when availability allows. We understand that sometimes moves happen unexpectedly, and we're here to help on short notice.</p>
+                        <p><a href="tel:+12086400083">Call us today</a> to check same-day availability.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 6: Cancellation -->
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span class="faq-question-text">What is your cancellation policy?</span>
+                        <span class="faq-icon">
+                            <svg class="icon" viewBox="0 0 24 24"><path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"/></svg>
+                        </span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>We understand plans change. Our policy is <strong>fair and flexible</strong>:</p>
+                        <ul>
+                            <li><strong>48+ hours notice:</strong> Full refund, no cancellation fee</li>
+                            <li><strong>24-48 hours notice:</strong> Free rescheduling at no extra cost</li>
+                            <li><strong>Less than 24 hours:</strong> Contact us - we'll work with you</li>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+
+            <!-- FAQ CTA -->
+            <div class="faq-cta">
+                <div class="faq-cta-content">
+                    <h3>Still Have Questions?</h3>
+                    <p>Our friendly team is ready to help. Get a free quote or ask us anything about your upcoming move.</p>
+                    <div class="faq-cta-buttons">
+                        <a href="tel:+12086400083" class="btn btn-primary">
+                            <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                            Call (208) 640-0083
+                        </a>
+                        <a href="mailto:marcorojo99@yahoo.com" class="btn btn-outline">
+                            <svg class="icon icon-sm"><use href="#icon-email"/></svg>
+                            Email Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <span class="availability-indicator">
+                <span class="availability-dot"></span>
+                Same-Day Service Available
+            </span>
+            <div class="cta-badge">Free Estimates • No Hidden Fees</div>
+            <h2>Let's Get You Moving</h2>
+            <p>No hidden fees. No surprises. Just honest, reliable service from Austin's trusted local movers.</p>
+            <div class="cta-buttons">
+                <a href="tel:+12086400083" class="btn btn-dark">
+                    <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                    Call (208) 640-0083
+                </a>
+                <a href="mailto:marcorojo99@yahoo.com" class="btn btn-outline">
+                    <svg class="icon icon-sm"><use href="#icon-email"/></svg>
+                    Email Us
+                </a>
+            </div>
+            <p class="cta-note">Most quotes provided within 15 minutes</p>
+            <span class="guarantee-badge-compact" style="margin-top: 1rem;">
+                <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                100% Satisfaction Guaranteed
+            </span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo-text">Cowboy <span>Movers</span> & Junk Removal</div>
+                <p>Professional moving and junk removal services. Licensed, insured, and ready to help with your next move.</p>
+                <div class="footer-contact-item">
+                    <svg class="icon icon-sm"><use href="#icon-location"/></svg>
+                    <span>Austin, TX & Surrounding Areas</span>
+                </div>
+                <div class="footer-contact-item">
+                    <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                    <a href="tel:+12086400083">(208) 640-0083</a>
+                </div>
+                <div class="footer-contact-item">
+                    <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+                    <a href="tel:+12088194694">(208) 819-4694</a>
+                </div>
+                <div class="footer-contact-item">
+                    <svg class="icon icon-sm"><use href="#icon-email"/></svg>
+                    <a href="mailto:marcorojo99@yahoo.com">marcorojo99@yahoo.com</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="services.html">Apartment Moving</a></li>
+                    <li><a href="services.html">Home Moving</a></li>
+                    <li><a href="services.html">Junk Removal</a></li>
+                    <li><a href="contact.html">Free Quotes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <ul class="footer-links">
+                    <li>Mon - Fri: 7am - 8pm</li>
+                    <li>Saturday: 8am - 6pm</li>
+                    <li>Sunday: 9am - 5pm</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Cowboy Movers & Junk Removal. All rights reserved.</p>
+            <p>Licensed & Insured</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA -->
+    <div class="mobile-cta">
+        <a href="tel:+12086400083">
+            <svg class="icon icon-sm"><use href="#icon-phone"/></svg>
+            Call Now - Free Quote
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.boxShadow = '0 1px 10px rgba(0, 0, 0, 0.08)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+
+        // Scroll animations with Intersection Observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add animation classes to sections
+        document.querySelectorAll('.service-card').forEach((card, i) => {
+            card.classList.add('fade-in');
+            card.style.transitionDelay = `${i * 0.1}s`;
+            observer.observe(card);
+        });
+
+        document.querySelectorAll('.feature-item').forEach((item, i) => {
+            item.classList.add('fade-in');
+            item.style.transitionDelay = `${i * 0.1}s`;
+            observer.observe(item);
+        });
+
+        document.querySelectorAll('.testimonial-card').forEach((card, i) => {
+            card.classList.add('fade-in');
+            card.style.transitionDelay = `${i * 0.1}s`;
+            observer.observe(card);
+        });
+
+        document.querySelectorAll('.trust-item').forEach((item, i) => {
+            item.classList.add('fade-in');
+            item.style.transitionDelay = `${i * 0.05}s`;
+            observer.observe(item);
+        });
+    </script>
+</body>
+</html>
