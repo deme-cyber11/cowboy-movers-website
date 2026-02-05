@@ -389,8 +389,6 @@
             }
         }
 
-        /* Bottom border on header removed */
-
         .btn {
             display: inline-flex;
             align-items: center;
@@ -475,10 +473,6 @@
             color: var(--color-text);
         }
 
-        .trust-detail {
-            display: none;
-        }
-
         /* ========================================
            SERVICES - Clean Cards
         ======================================== */
@@ -507,11 +501,6 @@
             text-transform: uppercase;
             letter-spacing: 0.15em;
             margin-bottom: 0.75rem;
-        }
-
-        .section-label::before,
-        .section-label::after {
-            display: none;
         }
 
         .section-title {
@@ -705,10 +694,6 @@
             font-style: normal;
         }
 
-        .testimonial-text::before {
-            display: none;
-        }
-
         .testimonial-author {
             display: flex;
             align-items: center;
@@ -847,11 +832,6 @@
             height: 400px;
             object-fit: cover;
             border-radius: 8px;
-        }
-
-        .about-image::after,
-        .about-image::before {
-            display: none;
         }
 
         .about-content .section-label {
@@ -1050,12 +1030,19 @@
             }
 
             .services-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(2, 1fr);
                 gap: 1.5rem;
             }
 
             .service-card {
                 padding: 2rem;
+            }
+
+            /* Third card spans full width on tablet for visual balance */
+            .service-card:last-child:nth-child(odd) {
+                grid-column: 1 / -1;
+                max-width: 400px;
+                margin: 0 auto;
             }
 
             .features-grid {
@@ -1064,17 +1051,20 @@
             }
 
             .testimonials-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(2, 1fr);
                 gap: 1.5rem;
+            }
+
+            /* Third testimonial spans full width */
+            .testimonial-card:last-child:nth-child(odd) {
+                grid-column: 1 / -1;
+                max-width: 500px;
+                margin: 0 auto;
             }
 
             .about-grid {
                 grid-template-columns: 1fr;
                 gap: 2rem;
-            }
-
-            .about-image::after {
-                display: none;
             }
 
             .about-image img {
@@ -1112,6 +1102,22 @@
             .hero-cta {
                 flex-direction: column;
                 align-items: flex-start;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .service-card:last-child:nth-child(odd) {
+                max-width: none;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .testimonial-card:last-child:nth-child(odd) {
+                max-width: none;
             }
 
             .trust-items {
@@ -1173,10 +1179,6 @@
 
             .step-item {
                 padding: 1.5rem 1rem;
-            }
-
-            .step-item::after {
-                display: none;
             }
 
             .section-title {
@@ -1251,10 +1253,6 @@
             text-align: center;
             position: relative;
             padding: 1.5rem;
-        }
-
-        .step-item::after {
-            display: none;
         }
 
         .step-number {
@@ -2201,12 +2199,10 @@
             <div class="trust-item">
                 <div class="trust-icon"><svg class="icon"><use href="#icon-shield-check"/></svg></div>
                 <div class="trust-label">Licensed & Insured</div>
-                <div class="trust-detail">Full liability coverage</div>
             </div>
             <div class="trust-item">
                 <div class="trust-icon"><svg class="icon"><use href="#icon-clock"/></svg></div>
                 <div class="trust-label">On-Time Guarantee</div>
-                <div class="trust-detail">We respect your schedule</div>
             </div>
             <div class="trust-item">
                 <div class="trust-icon"><svg class="icon"><use href="#icon-muscle"/></svg></div>
